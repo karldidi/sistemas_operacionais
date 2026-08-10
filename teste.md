@@ -1,332 +1,462 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Linha do Tempo — História dos Sistemas Operacionais</title>
-<style>
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    min-height: 100vh;
-    font-family: Georgia, "Times New Roman", serif;
-    background: #ead1d3;
-    color: #222;
-    overflow-x: hidden;
-  }
+🧠 Linha do Tempo Interativa — História dos Sistemas Operacionais
 
-  .page {
-    max-width: 1200px;
-    margin: auto;
-    padding: 38px 28px 60px;
-  }
+Clique nas etapas abaixo para expandir e visualizar as informações de cada geração.
 
-  h1 {
-    text-align: center;
-    font-size: clamp(32px, 5vw, 58px);
-    margin: 0 0 45px;
-    font-weight: 800;
-  }
+🟢 1 — Primeira Geração
+<details> <summary><strong>1945–1955 — Válvulas</strong></summary>
+💻 Características
+Uso de válvulas eletrônicas.
+Computadores muito grandes.
+Alto consumo de energia.
+Equipamentos caros.
+Baixa confiabilidade.
+Não existiam sistemas operacionais propriamente ditos.
+Os programas eram executados diretamente pelo computador.
+A programação era realizada em linguagem de máquina.
+Utilização de cartões perfurados para entrada de dados e programas.
+Os computadores eram utilizados principalmente para cálculos científicos e matemáticos.
+📌 Evolução
+Válvulas
+   ↓
+Programação manual
+   ↓
+Código de máquina
+   ↓
+Cartões perfurados
+   ↓
+Primeiras formas de automação
+</details>
+🔵 2 — Segunda Geração
+<details> <summary><strong>1955–1965 — Transistores e processamento em lote</strong></summary>
+💻 Características
+Substituição das válvulas pelos transistores.
+Computadores menores e mais confiáveis.
+Maior velocidade de processamento.
+Surgimento dos primeiros sistemas operacionais.
+Desenvolvimento do processamento em lote (batch).
+Os programas eram preparados antecipadamente e executados em sequência.
+🖥️ GM-NAA I/O — 1956
+Um dos primeiros sistemas operacionais para computadores de grande porte.
+Desenvolvido para computadores IBM.
+Automatizava parte da execução dos programas.
+Relacionado ao processamento em lote.
+📌 Evolução
+Transistores
+   ↓
+Maior confiabilidade
+   ↓
+Processamento em lote
+   ↓
+Automação
+   ↓
+Primeiros sistemas operacionais
+</details>
+🟡 3 — Terceira Geração
+<details> <summary><strong>1965–1980 — Circuitos integrados, multiprogramação e tempo compartilhado</strong></summary>
+💻 Características
+Utilização de circuitos integrados.
+Computadores mais rápidos e menores.
+Sistemas operacionais mais complexos.
+Surgimento da multiprogramação.
+Melhor aproveitamento da CPU.
+Desenvolvimento dos sistemas de tempo compartilhado.
+Vários usuários poderiam utilizar o computador de forma interativa.
+🖥️ CTSS — 1961
+Sistema de tempo compartilhado.
+Permitia a utilização do computador por vários usuários.
+A CPU era compartilhada entre os usuários.
+Aumentou a interação entre usuário e computador.
+🖥️ OS/360 — 1964
+Sistema operacional da IBM.
+Desenvolvido para a família System/360.
+Utilizava técnicas de multiprogramação.
+Relacionado ao processamento em lote e ao spooling.
+Tornou-se um dos sistemas operacionais mais importantes de sua época.
+🖥️ MULTICS — década de 1960
+Projeto envolvendo MIT, Bell Labs e General Electric.
+Buscava oferecer computação compartilhada para muitos usuários.
+Influenciou diversos conceitos de sistemas operacionais.
+Teve influência importante sobre o desenvolvimento do UNIX.
+🖥️ UNIX — 1969
+Desenvolvido nos Bell Labs.
+Recebeu influência das ideias do MULTICS.
+Tornou-se um sistema operacional de grande importância histórica.
+Características do UNIX
+Multiusuário
+Multitarefa
+Portabilidade
+Organização baseada em arquivos.
+Influência sobre diversos sistemas posteriores.
+📌 Evolução
+Circuitos integrados
+        ↓
+Multiprogramação
+        ↓
+Spooling
+        ↓
+Tempo compartilhado
+        ↓
+MULTICS
+        ↓
+UNIX
+        ↓
+Sistemas multiusuário e multitarefa
+</details>
+🟠 4 — Quarta Geração
+<details> <summary><strong>1980–presente — Computadores pessoais e microprocessadores</strong></summary>
+💻 Características
+Desenvolvimento dos microprocessadores.
+Circuitos integrados em larga escala.
+Popularização dos computadores pessoais.
+Sistemas operacionais passaram a ser utilizados por usuários individuais.
+Interfaces gráficas tornaram-se cada vez mais importantes.
+Surgimento de sistemas para microcomputadores.
+🖥️ CP/M — 1974
+Sistema operacional utilizado em diversos microcomputadores.
+Desenvolvido para microcomputadores.
+Tornou-se bastante popular durante determinado período.
+Foi importante para a evolução dos computadores pessoais.
+🖥️ MS-DOS — 1981
+Associado aos primeiros computadores IBM PC.
+Desenvolvido pela Microsoft.
+Utilizava principalmente uma interface baseada em comandos.
+Tornou-se muito utilizado nos computadores pessoais.
+Serviu como base para as primeiras versões do Windows.
+🍎 Macintosh — 1984
+Sistema operacional utilizado nos primeiros computadores Macintosh.
+A Apple apostou fortemente em uma interface gráfica.
+Características
+Janelas
+Ícones
+Menus
+Mouse
+Interface gráfica
+🪟 Windows 1.0 — 1985
+Primeira versão do Microsoft Windows.
+Funcionava sobre o MS-DOS.
+Introduziu um ambiente gráfico para computadores compatíveis com IBM PC.
+Utilizava janelas e menus.
+🖥️ OS/2 — 1987
+Desenvolvido inicialmente pela IBM e Microsoft.
+Criado para uma nova geração de computadores pessoais.
+Buscava oferecer recursos mais avançados que o DOS.
+🐧 Linux — 1991
+Kernel iniciado por Linus Torvalds.
+Recebeu influência do MINIX.
+Inspirado em conceitos do UNIX.
+Posteriormente recebeu contribuições de diversas pessoas.
+Características
+Código aberto.
+Multitarefa.
+Multiusuário.
+Grande comunidade de desenvolvimento.
+Utilização em servidores, computadores pessoais e sistemas embarcados.
+🪟 Windows NT — 1993
+Nova família de sistemas operacionais da Microsoft.
+Arquitetura diferente da linha baseada no DOS.
+Projetado para maior robustez.
+Voltado também para ambientes profissionais.
+🪟 Windows 95 — 1995
+Ajudou a popularizar o Windows nos computadores pessoais.
+Apresentou uma interface gráfica mais integrada.
+Manteve compatibilidade com programas antigos do MS-DOS.
+🍎 Mac OS X — 2001
+Nova geração do sistema operacional da Apple.
+Base relacionada ao UNIX.
+Utilizou tecnologias derivadas do projeto Mach.
+Combinou uma base UNIX com uma interface gráfica.
+🪟 Windows XP — 2001
+Uma das versões mais populares do Windows.
+Consolidou a família Windows baseada na arquitetura NT.
+Teve grande utilização em computadores pessoais.
+📌 Evolução
+Microprocessadores
+       ↓
+Microcomputadores
+       ↓
+CP/M
+       ↓
+MS-DOS
+       ↓
+Macintosh
+       ↓
+Windows
+       ↓
+Linux
+       ↓
+Windows NT
+       ↓
+Windows 95
+       ↓
+Mac OS X
+       ↓
+Windows XP
+</details>
+🔴 5 — Quinta Geração
+<details> <summary><strong>1990–presente — Computação móvel e sistemas modernos</strong></summary>
+📱 Características
+Expansão da computação móvel.
+Desenvolvimento de smartphones.
+Integração entre comunicação e computação.
+Sistemas operacionais passaram a funcionar em diversos tipos de dispositivos.
+Aplicativos passaram a desempenhar funções cada vez mais variadas.
+Interfaces passaram a utilizar principalmente telas sensíveis ao toque.
+🍎 iPhone OS — 2007
+Sistema operacional apresentado com o primeiro iPhone.
+Desenvolvido para dispositivos móveis.
+Utilizou uma interface baseada em tela sensível ao toque.
+Posteriormente passou a ser conhecido como iOS.
+🤖 Android — 2008
+Sistema operacional móvel baseado no kernel Linux.
+Desenvolvido e popularizado pelo Google.
+Utilizado por diversos fabricantes de smartphones.
+Possui grande ecossistema de aplicativos.
+Características
+Base Linux.
+Multitarefa.
+Aplicativos.
+Suporte a diversos dispositivos.
+Flexibilidade para fabricantes.
+Grande comunidade de desenvolvedores.
+🪟 Windows 10 — 2015
+Sistema operacional da Microsoft.
+Nova etapa da evolução da família Windows.
+Desenvolvido para computadores pessoais e outros dispositivos.
+Manteve grande compatibilidade com o ecossistema Windows.
+🪟 Windows 11 — 2021
+Nova geração do sistema operacional da Microsoft.
+Apresentou mudanças na interface gráfica.
+Voltado principalmente para computadores pessoais modernos.
+Continuação da evolução da família Windows.
+📌 Evolução
+Computadores pessoais
+        ↓
+Internet
+        ↓
+Dispositivos móveis
+        ↓
+Smartphones
+        ↓
+iPhone / iOS
+        ↓
+Android
+        ↓
+Sistemas operacionais modernos
+</details>
+📊 Linha do Tempo Visual
+                    HISTÓRIA DOS SISTEMAS OPERACIONAIS
 
-  .timeline-wrap {
-    position: relative;
-    padding: 115px 30px 125px;
-  }
+1945–1955
+    │
+    ▼
+   ①
+PRIMEIRA GERAÇÃO
+Válvulas
+    │
+    ▼
+1956
+GM-NAA I/O
+Processamento em lote
+    │
+    ▼
+1961
+CTSS
+Tempo compartilhado
+    │
+    ▼
+1964
+OS/360
+IBM System/360
+    │
+    ▼
+1965–1980
+   ③
+TERCEIRA GERAÇÃO
+Circuitos integrados
+Multiprogramação
+    │
+    ├────────► 1969 — UNIX
+    │           Multiusuário
+    │           Multitarefa
+    │           Portabilidade
+    │
+    ├────────► 1970s — MULTICS
+    │           Computação compartilhada
+    │
+    ▼
+1974
+CP/M
+Microcomputadores
+    │
+    ▼
+1980–presente
+   ④
+QUARTA GERAÇÃO
+Microprocessadores
+Computadores pessoais
+    │
+    ├────────► 1981 — MS-DOS
+    │
+    ├────────► 1984 — Macintosh
+    │
+    ├────────► 1985 — Windows 1.0
+    │
+    ├────────► 1987 — OS/2
+    │
+    ├────────► 1991 — Linux
+    │
+    ├────────► 1993 — Windows NT
+    │
+    ├────────► 1995 — Windows 95
+    │
+    ├────────► 2001 — Mac OS X
+    │
+    └────────► 2001 — Windows XP
+    │
+    ▼
+1990–presente
+   ⑤
+QUINTA GERAÇÃO
+Computação móvel
+    │
+    ├────────► 2007 — iPhone OS
+    │
+    ├────────► 2008 — Android
+    │
+    ├────────► 2015 — Windows 10
+    │
+    └────────► 2021 — Windows 11
+🎯 Linha do Tempo no Formato da Imagem
+                 DIVISÃO DA HISTÓRIA
+                 
+        PRIMEIRA       SEGUNDA       TERCEIRA
+        GERAÇÃO        GERAÇÃO        GERAÇÃO
+           │              │              │
+           ▼              ▼              ▼
+          ①──────────────②──────────────③
+          │              │              │
+     1945–1955       1955–1965      1965–1980
+      Válvulas       Transistores     Circuitos
+                                      integrados
+           │              │              │
+           │              │              │
+           │              │              │
+           ▼              ▼              ▼
+      Programação     Processamento   Multiprogramação
+      manual          em lote         Tempo compartilhado
+                                       MULTICS
+                                       UNIX
+                                       
+                                       
+                    QUARTA              QUINTA
+                    GERAÇÃO             GERAÇÃO
+                       │                   │
+                       ▼                   ▼
+                      ④───────────────────⑤
+                       │                   │
+                  1980–presente       1990–presente
+                 Microprocessadores   Computação móvel
+                 Computadores         Smartphones
+                 pessoais             iOS
+                 MS-DOS               Android
+                 Windows              Windows 10/11
+                 Linux
+🗓️ Cronologia Completa
+Ano	Sistema / Evento	Principal característica
+1945–1955	Primeira geração	Válvulas e programação manual
+1956	GM-NAA I/O	Processamento em lote
+1961	CTSS	Tempo compartilhado
+1964	OS/360	IBM System/360 e multiprogramação
+1965–1980	Terceira geração	Circuitos integrados
+1969	UNIX	Multiusuário, multitarefa e portabilidade
+1970s	MULTICS	Computação compartilhada
+1974	CP/M	Microcomputadores
+1980–presente	Quarta geração	Microprocessadores e computadores pessoais
+1981	MS-DOS	IBM PC
+1984	Macintosh	Interface gráfica
+1985	Windows 1.0	Ambiente gráfico sobre MS-DOS
+1987	OS/2	IBM e Microsoft
+1991	Linux	Kernel iniciado por Linus Torvalds
+1993	Windows NT	Nova arquitetura Windows
+1995	Windows 95	Popularização do Windows
+2001	Mac OS X	Base relacionada ao UNIX
+2001	Windows XP	Grande popularidade
+2007	iPhone OS	Sistema operacional móvel
+2008	Android	Sistema móvel baseado no Linux
+2015	Windows 10	Nova geração do Windows
+2021	Windows 11	Nova geração do Windows
+🧠 Relação entre as Gerações
+① PRIMEIRA GERAÇÃO
+        │
+        │ Válvulas
+        ▼
+Programação manual
+        │
+        ▼
+② SEGUNDA GERAÇÃO
+        │
+        │ Transistores
+        ▼
+Processamento em lote
+        │
+        ▼
+③ TERCEIRA GERAÇÃO
+        │
+        │ Circuitos integrados
+        ▼
+Multiprogramação
+        │
+        ▼
+Tempo compartilhado
+        │
+        ▼
+UNIX
+        │
+        ▼
+④ QUARTA GERAÇÃO
+        │
+        │ Microprocessadores
+        ▼
+Computadores pessoais
+        │
+        ▼
+MS-DOS / Windows / Macintosh / Linux
+        │
+        ▼
+⑤ QUINTA GERAÇÃO
+        │
+        │ Computação móvel
+        ▼
+iOS / Android
+        │
+        ▼
+Sistemas operacionais modernos
+📌 Resumo Final
+<details> <summary><strong>🔎 Clique para ver o resumo geral</strong></summary>
 
-  .line {
-    position: absolute;
-    left: 6%;
-    right: 6%;
-    top: 50%;
-    height: 18px;
-    transform: translateY(-50%);
-    border-radius: 20px;
-    background: linear-gradient(90deg,
-      #35a86b 0%,
-      #35a86b 25%,
-      #5967b8 25%,
-      #5967b8 50%,
-      #f2b51d 50%,
-      #f2b51d 75%,
-      #c93c34 75%,
-      #c93c34 100%);
-    box-shadow: 0 3px 3px rgba(0,0,0,.08);
-  }
+A história dos sistemas operacionais pode ser compreendida por meio da evolução do hardware e das formas de utilização dos computadores.
 
-  .events {
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 10px;
-  }
+Na primeira geração, os computadores utilizavam válvulas e praticamente não possuíam sistemas operacionais.
 
-  .event {
-    position: relative;
-    min-height: 260px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+Na segunda geração, os transistores substituíram as válvulas e surgiram sistemas de processamento em lote, como o GM-NAA I/O.
 
-  .event:nth-child(odd) .label { top: 5px; }
-  .event:nth-child(even) .label { bottom: 5px; }
+Na terceira geração, os circuitos integrados permitiram sistemas mais sofisticados, com multiprogramação, tempo compartilhado e sistemas como OS/360, MULTICS e UNIX.
 
-  .label {
-    position: absolute;
-    width: 190px;
-    text-align: center;
-    font-size: 23px;
-    line-height: 1.15;
-    font-weight: 700;
-  }
+Na quarta geração, os microprocessadores contribuíram para a popularização dos computadores pessoais. Sistemas como CP/M, MS-DOS, Windows, Macintosh e Linux tiveram grande importância nesse processo.
 
-  .connector {
-    position: absolute;
-    width: 5px;
-    height: 62px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: currentColor;
-  }
+Na quinta geração, os sistemas operacionais passaram a estar fortemente relacionados à computação móvel. iOS e Android tornaram-se importantes sistemas para smartphones, enquanto sistemas como Windows 10 e Windows 11 continuaram a evolução dos computadores pessoais.
 
-  .event:nth-child(odd) .connector { top: 66px; }
-  .event:nth-child(even) .connector { bottom: 66px; }
-
-  .dot {
-    position: relative;
-    z-index: 5;
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
-    background: #f8f7ef;
-    border: 6px solid currentColor;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Arial, sans-serif;
-    font-size: 26px;
-    font-weight: 800;
-    cursor: pointer;
-    transition: transform .2s, box-shadow .2s;
-  }
-
-  .dot:hover, .dot:focus {
-    transform: scale(1.12);
-    box-shadow: 0 0 0 8px rgba(255,255,255,.35);
-    outline: none;
-  }
-
-  .green { color: #35a86b; }
-  .blue { color: #5967b8; }
-  .yellow { color: #f2b51d; }
-  .red { color: #c93c34; }
-
-  .info {
-    margin: 5px auto 0;
-    max-width: 920px;
-    background: rgba(255,255,255,.92);
-    border-radius: 22px;
-    padding: 26px 30px;
-    box-shadow: 0 10px 35px rgba(0,0,0,.12);
-    display: none;
-    animation: show .25s ease;
-  }
-
-  .info.active { display: block; }
-
-  .info h2 {
-    margin: 0 0 8px;
-    font-size: 30px;
-  }
-
-  .info .period {
-    font-family: Arial, sans-serif;
-    font-weight: 700;
-    margin-bottom: 14px;
-    opacity: .75;
-  }
-
-  .info ul {
-    margin: 10px 0 0 20px;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-  }
-
-  .hint {
-    text-align: center;
-    font-family: Arial, sans-serif;
-    margin-top: 12px;
-    opacity: .7;
-  }
-
-  @keyframes show {
-    from { opacity: 0; transform: translateY(8px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-
-  @media (max-width: 800px) {
-    .timeline-wrap { padding: 20px 10px; }
-    .line {
-      left: 40px;
-      top: 0;
-      bottom: 0;
-      width: 14px;
-      height: auto;
-      transform: none;
-      background: linear-gradient(180deg,
-        #35a86b 0%, #35a86b 25%,
-        #5967b8 25%, #5967b8 50%,
-        #f2b51d 50%, #f2b51d 75%,
-        #c93c34 75%, #c93c34 100%);
-    }
-    .events {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-    }
-    .event {
-      min-height: 115px;
-      justify-content: flex-start;
-      padding-left: 10px;
-    }
-    .dot {
-      margin-left: 0;
-    }
-    .label {
-      position: static !important;
-      width: auto;
-      text-align: left;
-      margin-left: 28px;
-      font-size: 20px;
-    }
-    .connector { display: none; }
-  }
-</style>
-</head>
-<body>
-<div class="page">
-  <h1>Divisão da História</h1>
-
-  <div class="timeline-wrap">
-    <div class="line"></div>
-
-    <div class="events">
-      <div class="event green">
-        <div class="label">Primeira<br>Geração</div>
-        <div class="connector"></div>
-        <button class="dot" onclick="showInfo(0)" aria-label="Primeira geração">1</button>
-      </div>
-
-      <div class="event blue">
-        <div class="label">Segunda<br>Geração</div>
-        <div class="connector"></div>
-        <button class="dot" onclick="showInfo(1)" aria-label="Segunda geração">2</button>
-      </div>
-
-      <div class="event yellow">
-        <div class="label">Terceira<br>Geração</div>
-        <div class="connector"></div>
-        <button class="dot" onclick="showInfo(2)" aria-label="Terceira geração">3</button>
-      </div>
-
-      <div class="event red">
-        <div class="label">Quarta<br>Geração</div>
-        <div class="connector"></div>
-        <button class="dot" onclick="showInfo(3)" aria-label="Quarta geração">4</button>
-      </div>
-
-      <div class="event red">
-        <div class="label">Quinta<br>Geração</div>
-        <div class="connector"></div>
-        <button class="dot" onclick="showInfo(4)" aria-label="Quinta geração">5</button>
-      </div>
-    </div>
-  </div>
-
-  <div id="info" class="info active"></div>
-  <div class="hint">Clique nos números para explorar cada geração.</div>
-</div>
-
-<script>
-const data = [
-  {
-    title: "1 — Primeira geração",
-    period: "1945–1955",
-    items: [
-      "Uso de válvulas.",
-      "Computadores grandes, caros e pouco confiáveis.",
-      "Não existiam sistemas operacionais.",
-      "Programação diretamente em código de máquina.",
-      "Uso de cartões perfurados.",
-      "Computadores voltados principalmente para cálculos científicos."
-    ]
-  },
-  {
-    title: "2 — Segunda geração",
-    period: "1955–1965",
-    items: [
-      "Uso de transistores, aumentando a confiabilidade.",
-      "Surgimento dos computadores comerciais de grande porte.",
-      "Processamento em lote (batch).",
-      "GM-NAA I/O e outros sistemas iniciais.",
-      "Programas preparados em cartões e executados em sequência.",
-      "FMS e IBSYS são exemplos de sistemas da época."
-    ]
-  },
-  {
-    title: "3 — Terceira geração",
-    period: "1965–1980",
-    items: [
-      "Uso de circuitos integrados.",
-      "System/360 e OS/360.",
-      "Multiprogramação.",
-      "Spooling.",
-      "Timesharing e CTSS.",
-      "MULTICS influenciou o desenvolvimento do UNIX.",
-      "UNIX surgiu nos Bell Labs e tornou-se multiusuário, multitarefa e portátil."
-    ]
-  },
-  {
-    title: "4 — Quarta geração",
-    period: "1980–presente",
-    items: [
-      "Circuitos integrados em larga escala e microprocessadores.",
-      "Popularização dos computadores pessoais.",
-      "CP/M em microcomputadores.",
-      "MS-DOS associado ao IBM PC.",
-      "Macintosh popularizou interfaces gráficas.",
-      "Windows evoluiu de ambiente gráfico para sistema operacional completo.",
-      "Linux surgiu em 1991, inspirado no MINIX e influenciado pelo UNIX."
-    ]
-  },
-  {
-    title: "5 — Quinta geração",
-    period: "1990–presente",
-    items: [
-      "Expansão da computação móvel.",
-      "Smartphones combinam telefonia e computação.",
-      "iPhone OS/iOS foi apresentado com o primeiro iPhone.",
-      "Android é baseado no kernel Linux.",
-      "Dispositivos móveis passaram a executar aplicativos, navegar na web e realizar diversas funções.",
-      "A competição entre sistemas móveis tornou-se intensa."
-    ]
-  }
-];
-
-function showInfo(index) {
-  const item = data[index];
-  const info = document.getElementById("info");
-  info.innerHTML = `
-    <h2>${item.title}</h2>
-    <div class="period">${item.period}</div>
-    <ul>${item.items.map(x => `<li>${x}</li>`).join("")}</ul>
-  `;
-  info.classList.remove("active");
-  void info.offsetWidth;
-  info.classList.add("active");
-}
-showInfo(0);
-</script>
-</body>
-</html>
+VÁLVULAS
+   ↓
+TRANSISTORES
+   ↓
+CIRCUITOS INTEGRADOS
+   ↓
+MICROPROCESSADORES
+   ↓
+COMPUTADORES PESSOAIS
+   ↓
+SMARTPHONES
+   ↓
+SISTEMAS OPERACIONAIS MODERNOS
+</details>
