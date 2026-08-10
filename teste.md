@@ -1,300 +1,239 @@
-# 📅 Linha do Tempo — História dos Sistemas Operacionais
+# Linha do Tempo - Historia dos Sistemas Operacionais
 
 ## Linha do tempo
 
-**[① Primeira Geração](#-primeira-geração--1945-1955)**  
-**[② Segunda Geração](#-segunda-geração--1955-1965)**  
-**[③ Terceira Geração](#-terceira-geração--1965-1980)**  
-**[④ Quarta Geração](#-quarta-geração--1980-presente)**  
-**[⑤ Quinta Geração](#-quinta-geração--1990-presente)**
+- [1 - Primeira Geracao](#1---primeira-geracao)
+- [2 - Segunda Geracao](#2---segunda-geracao)
+- [3 - Terceira Geracao](#3---terceira-geracao)
+- [4 - Quarta Geracao](#4---quarta-geracao)
+- [5 - Quinta Geracao](#5---quinta-geracao)
 
 ---
 
-## 🟢 ① Primeira Geração — 1945–1955
+## 1 - Primeira Geracao
 
-**Tecnologia:** Válvulas
+Periodo: 1945-1955
 
+- Uso de valvulas.
 - Computadores grandes.
 - Alto consumo de energia.
-- Programação em código de máquina.
-- Uso de cartões perfurados.
-- Não existiam sistemas operacionais propriamente ditos.
-- Os programas eram executados de forma manual.
+- Programacao em codigo de maquina.
+- Uso de cartoes perfurados.
+- Ainda nao existiam sistemas operacionais propriamente ditos.
 
-**Principais características:**
-
-- Válvulas
-- Código de máquina
-- Cartões perfurados
-- Programação manual
-
-[⬆️ Voltar para a linha do tempo](#linha-do-tempo)
+[Voltar ao inicio](#linha-do-tempo---historia-dos-sistemas-operacionais)
 
 ---
 
-## 🔵 ② Segunda Geração — 1955–1965
+## 2 - Segunda Geracao
 
-**Tecnologia:** Transistores
+Periodo: 1955-1965
 
-- Os transistores substituíram as válvulas.
-- Os computadores ficaram mais confiáveis.
-- Surgiu o processamento em lote.
-- Os programas eram preparados e executados em sequência.
-- Surgiram os primeiros sistemas operacionais.
+- Uso de transistores.
+- Computadores mais confiaveis.
+- Surgimento do processamento em lote.
+- Primeiros sistemas operacionais.
 
-### 1956 — GM-NAA I/O
+### 1956 - GM-NAA I/O
 
 - Um dos primeiros sistemas operacionais para computadores de grande porte.
-- Automatizava parte da execução dos programas.
+- Automatizava a execucao dos programas.
 - Utilizava processamento em lote.
 
-**Principais características:**
-
-- Transistores
-- Processamento em lote
-- Automação
-- Primeiros sistemas operacionais
-
-[⬆️ Voltar para a linha do tempo](#linha-do-tempo)
+[Voltar ao inicio](#linha-do-tempo---historia-dos-sistemas-operacionais)
 
 ---
 
-## 🟡 ③ Terceira Geração — 1965–1980
+## 3 - Terceira Geracao
 
-**Tecnologia:** Circuitos integrados
+Periodo: 1965-1980
 
-- Os circuitos integrados permitiram computadores mais eficientes.
-- Os sistemas operacionais ficaram mais complexos.
-- Surgiu a multiprogramação.
-- Vários programas podiam permanecer na memória.
-- O tempo compartilhado permitiu a utilização do computador por vários usuários.
+- Uso de circuitos integrados.
+- Multiprogramacao.
+- Tempo compartilhado.
+- Melhor aproveitamento da CPU.
 
-### 1961 — CTSS
+### 1961 - CTSS
 
 - Sistema de tempo compartilhado.
-- Permitia a utilização do computador por vários usuários.
-- A CPU era compartilhada entre os usuários.
+- Permitia varios usuarios utilizando o computador.
 
-### 1964 — OS/360
+### 1964 - OS/360
 
 - Sistema operacional da IBM.
-- Desenvolvido para a família System/360.
-- Utilizava técnicas de multiprogramação.
-- Também estava relacionado ao processamento em lote e ao spooling.
+- Desenvolvido para a familia System/360.
+- Utilizava multiprogramacao.
 
-### Década de 1960 — MULTICS
+### Decada de 1960 - MULTICS
 
-- Projeto voltado para computação compartilhada.
-- Permitia a utilização do computador por muitos usuários.
+- Sistema voltado para computacao compartilhada.
 - Influenciou o desenvolvimento do UNIX.
 
-### 1969 — UNIX
+### 1969 - UNIX
 
 - Desenvolvido nos Bell Labs.
-- Tornou-se um sistema operacional muito importante.
-- Possuía características de:
-  - Multiusuário
-  - Multitarefa
-  - Portabilidade
+- Multiusuario.
+- Multitarefa.
+- Portabilidade.
 
-**Principais características:**
-
-- Circuitos integrados
-- Multiprogramação
-- Tempo compartilhado
-- Spooling
-- MULTICS
-- UNIX
-
-[⬆️ Voltar para a linha do tempo](#linha-do-tempo)
+[Voltar ao inicio](#linha-do-tempo---historia-dos-sistemas-operacionais)
 
 ---
 
-## 🟠 ④ Quarta Geração — 1980–presente
+## 4 - Quarta Geracao
 
-**Tecnologia:** Microprocessadores
+Periodo: 1980-presente
 
-- Popularização dos computadores pessoais.
 - Desenvolvimento dos microprocessadores.
-- Sistemas operacionais passaram a ser utilizados por usuários individuais.
-- Interfaces gráficas ganharam importância.
+- Popularizacao dos computadores pessoais.
+- Interfaces graficas.
+- Surgimento de sistemas para microcomputadores.
 
-### 1974 — CP/M
+### 1974 - CP/M
 
 - Sistema operacional utilizado em diversos microcomputadores.
-- Foi importante para o desenvolvimento dos computadores pessoais.
 
-### 1981 — MS-DOS
+### 1981 - MS-DOS
 
 - Associado aos primeiros computadores IBM PC.
-- Sistema baseado principalmente em comandos.
-- Tornou-se muito utilizado nos computadores pessoais.
+- Interface baseada em comandos.
 
-### 1984 — Macintosh
+### 1984 - Macintosh
 
-- Sistema operacional dos primeiros computadores Macintosh.
-- Popularizou uma interface gráfica.
-- Utilizava:
-  - Janelas
-  - Ícones
-  - Menus
-  - Mouse
+- Interface grafica.
+- Janelas.
+- Icones.
+- Menus.
+- Mouse.
 
-### 1985 — Windows 1.0
+### 1985 - Windows 1.0
 
-- Primeira versão do Microsoft Windows.
+- Primeira versao do Microsoft Windows.
 - Funcionava sobre o MS-DOS.
-- Introduziu um ambiente gráfico.
 
-### 1987 — OS/2
+### 1987 - OS/2
 
 - Desenvolvido inicialmente pela IBM e Microsoft.
-- Criado para uma nova geração de computadores pessoais.
 
-### 1991 — Linux
+### 1991 - Linux
 
 - Kernel iniciado por Linus Torvalds.
-- Recebeu influência do MINIX.
-- Inspirado em conceitos do UNIX.
-- Possui código aberto.
+- Influenciado pelo UNIX e pelo MINIX.
+- Codigo aberto.
 
-### 1993 — Windows NT
+### 1993 - Windows NT
 
-- Nova família de sistemas operacionais da Microsoft.
-- Possuía uma arquitetura diferente da linha baseada no DOS.
-- Foi desenvolvido buscando maior robustez.
+- Nova familia de sistemas operacionais da Microsoft.
+- Nova arquitetura.
 
-### 1995 — Windows 95
+### 1995 - Windows 95
 
-- Ajudou a popularizar o Windows nos computadores pessoais.
-- Apresentou uma interface gráfica mais integrada.
+- Ajudou a popularizar o Windows.
 
-### 2001 — Mac OS X
+### 2001 - Mac OS X
 
-- Nova geração do sistema operacional da Apple.
-- Possuía uma base relacionada ao UNIX.
+- Nova geracao do sistema operacional da Apple.
+- Base relacionada ao UNIX.
 
-### 2001 — Windows XP
+### 2001 - Windows XP
 
-- Uma das versões mais populares do Windows.
-- Consolidou a família Windows baseada na arquitetura NT.
+- Uma das versoes mais populares do Windows.
 
-**Principais características:**
-
-- Microprocessadores
-- Computadores pessoais
-- Interface gráfica
-- MS-DOS
-- Windows
-- Macintosh
-- Linux
-
-[⬆️ Voltar para a linha do tempo](#linha-do-tempo)
+[Voltar ao inicio](#linha-do-tempo---historia-dos-sistemas-operacionais)
 
 ---
 
-## 🔴 ⑤ Quinta Geração — 1990–presente
+## 5 - Quinta Geracao
 
-**Tecnologia:** Computação móvel
+Periodo: 1990-presente
 
-- Expansão dos dispositivos móveis.
-- Surgimento dos smartphones.
-- Utilização de aplicativos.
-- Interfaces com telas sensíveis ao toque.
-- Integração entre comunicação e computação.
+- Expansao da computacao movel.
+- Smartphones.
+- Aplicativos.
+- Telas sensiveis ao toque.
 
-### 2007 — iPhone OS
+### 2007 - iPhone OS
 
 - Sistema operacional apresentado com o primeiro iPhone.
-- Desenvolvido para dispositivos móveis.
 - Posteriormente passou a ser chamado de iOS.
 
-### 2008 — Android
+### 2008 - Android
 
-- Sistema operacional móvel baseado no kernel Linux.
-- Utilizado por diferentes fabricantes de smartphones.
-- Possui grande ecossistema de aplicativos.
+- Sistema operacional movel baseado no kernel Linux.
+- Utilizado por diferentes fabricantes.
 
-### 2015 — Windows 10
+### 2015 - Windows 10
 
 - Sistema operacional da Microsoft.
-- Nova etapa da evolução da família Windows.
+- Nova etapa da familia Windows.
 
-### 2021 — Windows 11
+### 2021 - Windows 11
 
-- Nova geração do Windows.
-- Apresentou mudanças na interface gráfica.
-- Desenvolvido para computadores pessoais modernos.
+- Nova geracao do Windows.
+- Mudancas na interface grafica.
 
-**Principais características:**
-
-- Smartphones
-- Computação móvel
-- iOS
-- Android
-- Windows 10
-- Windows 11
-
-[⬆️ Voltar para a linha do tempo](#linha-do-tempo)
+[Voltar ao inicio](#linha-do-tempo---historia-dos-sistemas-operacionais)
 
 ---
 
-# 📊 Resumo da Linha do Tempo
+# Linha do Tempo Visual
 
-| Ano | Sistema ou período | Característica |
-|---|---|---|
-| 1945–1955 | Primeira geração | Válvulas |
-| 1956 | GM-NAA I/O | Processamento em lote |
-| 1961 | CTSS | Tempo compartilhado |
-| 1964 | OS/360 | IBM System/360 |
-| 1965–1980 | Terceira geração | Circuitos integrados |
-| 1969 | UNIX | Multiusuário e multitarefa |
-| 1974 | CP/M | Microcomputadores |
-| 1980–presente | Quarta geração | Microprocessadores |
-| 1981 | MS-DOS | IBM PC |
-| 1984 | Macintosh | Interface gráfica |
-| 1985 | Windows 1.0 | Ambiente gráfico |
-| 1987 | OS/2 | IBM e Microsoft |
-| 1991 | Linux | Kernel de código aberto |
-| 1993 | Windows NT | Nova arquitetura |
-| 1995 | Windows 95 | Popularização do Windows |
-| 2001 | Mac OS X | Base UNIX |
-| 2001 | Windows XP | Grande popularidade |
-| 2007 | iPhone OS | Computação móvel |
-| 2008 | Android | Base Linux |
-| 2015 | Windows 10 | Nova geração |
-| 2021 | Windows 11 | Nova geração |
-
----
-
-# 🧠 Evolução dos Sistemas Operacionais
-
-**Válvulas**
-
-↓
-
-**Transistores**
-
-↓
-
-**Circuitos integrados**
-
-↓
-
-**Microprocessadores**
-
-↓
-
-**Computadores pessoais**
-
-↓
-
-**Internet e sistemas distribuídos**
-
-↓
-
-**Smartphones**
-
-↓
-
-**Sistemas operacionais modernos**
+```text
+1945-1955
+    |
+    v
+1 - PRIMEIRA GERACAO
+    |
+    v
+1956 - GM-NAA I/O
+    |
+    v
+1961 - CTSS
+    |
+    v
+1964 - OS/360
+    |
+    v
+1969 - UNIX
+    |
+    v
+1974 - CP/M
+    |
+    v
+1981 - MS-DOS
+    |
+    v
+1984 - Macintosh
+    |
+    v
+1985 - Windows 1.0
+    |
+    v
+1987 - OS/2
+    |
+    v
+1991 - Linux
+    |
+    v
+1993 - Windows NT
+    |
+    v
+1995 - Windows 95
+    |
+    v
+2001 - Mac OS X
+    |
+    v
+2001 - Windows XP
+    |
+    v
+2007 - iPhone OS
+    |
+    v
+2008 - Android
+    |
+    v
+2015 - Windows 10
+    |
+    v
+2021 - Windows 11
