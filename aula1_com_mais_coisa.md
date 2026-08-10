@@ -1,208 +1,298 @@
-Aula 01 — Introdução aos Sistemas Operacionais
+# 🖥️ Aula 01 — Introdução aos Sistemas Operacionais
 
-1. Mapa Mental
+## 🧠 Mapa Mental
 
-SISTEMAS OPERACIONAIS
-│
-├── Conceito
-│   ├── Software essencial
-│   ├── Gerencia hardware e software
-│   └── Interface entre usuário e máquina
-│
-├── Exemplos
-│   ├── Windows
-│   ├── macOS
-│   ├── Linux
-│   ├── Android
-│   └── iOS
-│
-├── Estrutura Interna
-│   ├── Estrutura em camadas
-│   │   └── Organização hierárquica e modularidade
-│   ├── Monolítica
-│   ├── Modular
-│   └── Kernel
-│       ├── Núcleo do SO
-│       ├── Acesso direto ao hardware
-│       └── Gerenciamento de recursos vitais
-│
-├── Modos de Operação
-│   ├── Modo Usuário
-│   │   └── Programas comuns
-│   └── Modo Kernel
-│       ├── Privilégios elevados
-│       └── Acesso total
-│
-├── Gerenciamento de Processos
-│   ├── Escalonamento
-│   ├── Eficiência
-│   ├── Justiça
-│   ├── Tempo de resposta
-│   └── Algoritmos
-│       ├── FIFO
-│       ├── Round Robin
-│       └── Prioridade
-│
-├── Gerenciamento de Memória
-│   ├── Memória principal
-│   │   ├── Alocação dinâmica
-│   │   └── Proteção de memória
-│   └── Memória virtual
-│       ├── Expansão lógica da RAM
-│       ├── Paginação
-│       ├── Segmentação
-│       └── Segurança e flexibilidade
-│
-├── Dispositivos e Arquivos
-│   ├── Gerenciamento de E/S
-│   │   └── Controle de hardware periférico
-│   ├── Sistemas de arquivos
-│   │   └── Organização e acesso a dados
-│   ├── Segurança
-│   │   └── Proteção contra ameaças
-│   └── Virtualização
-│       └── Otimização de recursos e flexibilidade
-│
-└── Portfólio
-    ├── Demonstra habilidades práticas
-    ├── Evidencia o aprendizado
-    ├── Facilita avaliação e oportunidades
-    └── Incentiva organização e melhoria contínua
+```text
+                         SISTEMAS OPERACIONAIS
+                                  │
+        ┌─────────────────────────┼─────────────────────────┐
+        │                         │                         │
+    CONCEITO                 ESTRUTURA                  PROCESSOS
+        │                         │                         │
+        ├─ Software essencial    ├─ Camadas               ├─ Escalonamento
+        ├─ Gerencia hardware     ├─ Monolítico            ├─ Eficiência
+        │  e software            ├─ Modular               ├─ Justiça
+        └─ Interface usuário     └─ Kernel                └─ Tempo de resposta
+           ↕ máquina                 │
+                                     ├─ Núcleo do SO
+                                     ├─ Acesso ao hardware
+                                     └─ Gerencia recursos
+                                      
+        ┌─────────────────────────┼─────────────────────────┐
+        │                         │                         │
+     MEMÓRIA                 DISPOSITIVOS               SEGURANÇA
+        │                     E ARQUIVOS                     │
+        │                         │                         ├─ Proteção
+        ├─ Memória principal     ├─ Gerenciamento de E/S   │  contra ameaças
+        ├─ Alocação dinâmica     ├─ Sistemas de arquivos  │
+        ├─ Proteção              └─ Organização e acesso  └─ Virtualização
+        │                           aos dados                  │
+        └─ Memória virtual                                  └─ Otimização
+           ├─ Paginação
+           ├─ Segmentação
+           └─ Expansão lógica da RAM
 
-2. Linha do Tempo — Sistemas Operacionais
 
-Observação: a Aula 01 determina que a atividade apresente os anos de lançamento dos sistemas operacionais, mas o material fornecido não informa esses anos. Portanto, para manter o conteúdo fiel à aula, esta seção fica estruturada para preenchimento.
+                         MODOS DE OPERAÇÃO
+                                  │
+                    ┌─────────────┴─────────────┐
+                    │                           │
+              MODO USUÁRIO                 MODO KERNEL
+                    │                           │
+              Programas comuns          Privilégios elevados
+                                        Acesso total
+```
 
-Ano
+---
 
-Sistema Operacional
+## 💻 O que é um Sistema Operacional?
 
-Observação
+Um **Sistema Operacional (SO)** é um software essencial responsável por gerenciar o **hardware e o software** de um computador.
 
-____
+Ele funciona como uma **interface entre o usuário e a máquina**.
 
-__________________
+### Exemplos
 
-______________________________
+* Windows
+* macOS
+* Linux
+* Android
+* iOS
 
-____
+---
 
-__________________
+## ⚙️ Estrutura Interna
 
-______________________________
+Os sistemas operacionais podem ser organizados utilizando diferentes modelos.
 
-____
+### Estrutura em Camadas
 
-__________________
+* Organização hierárquica.
+* Facilita a modularidade do sistema.
 
-______________________________
+### Monolítico e Modular
 
-____
+* São diferentes abordagens para o desenvolvimento do **kernel**.
 
-__________________
+### Kernel
 
-______________________________
+O **kernel** é o núcleo do sistema operacional.
 
-____
+Suas principais características são:
 
-__________________
+* Acesso direto ao hardware.
+* Gerenciamento de recursos importantes.
+* Controle das funções essenciais do sistema.
 
-______________________________
+---
 
-____
+## 🔐 Modos de Operação
 
-__________________
+### Modo Usuário
 
-______________________________
+* Utilizado por programas comuns.
+* Possui limitações de acesso aos recursos do sistema.
 
-____
+### Modo Kernel
 
-__________________
+* Possui privilégios elevados.
+* Permite acesso total aos recursos do sistema.
 
-______________________________
+---
 
-____
+## 🔄 Escalonamento de Processos
 
-__________________
+O sistema operacional precisa decidir **qual processo será executado e por quanto tempo**.
 
-______________________________
+### Objetivos
 
-____
+* Eficiência
+* Justiça
+* Tempo de resposta
+* Melhor desempenho geral
 
-__________________
+### Algoritmos
 
-______________________________
+* **FIFO**
+* **Round Robin**
+* **Prioridade**
 
-____
+---
 
-__________________
+## 🧠 Gerenciamento de Memória
 
-______________________________
+### Memória Principal
 
-Modelo visual
+Responsável pelo armazenamento dos dados e programas em execução.
 
-ANO ───────► SISTEMA OPERACIONAL ───────► PRINCIPAL MARCO
+Principais recursos:
 
-____         ____________________          ____________________
-  │
-  ▼
-____         ____________________          ____________________
-  │
-  ▼
-____         ____________________          ____________________
-  │
-  ▼
-____         ____________________          ____________________
-  │
-  ▼
-____         ____________________          ____________________
+* Alocação dinâmica
+* Proteção de memória
 
-3. Atividade da Aula
+### Memória Virtual
 
-Formar grupos de 3 a 5 integrantes.
+Permite uma **expansão lógica da RAM**.
 
-Manter a mesma composição do grupo nas atividades semanais.
+Utiliza técnicas como:
 
-Criar um repositório no GitHub para as atividades da disciplina.
+* Paginação
+* Segmentação
 
-Criar um arquivo Markdown (.md) com o resumo da Aula 01.
+Também proporciona maior:
 
-Elaborar uma linha do tempo em formato de mapa mental, demonstrando os anos de lançamento dos sistemas operacionais.
+* Segurança
+* Flexibilidade
 
-A atividade da linha do tempo deve ser realizada colaborativamente no Miro.
+---
 
-Depois, transformar o conteúdo em .md para salvar no repositório.
+## 🔌 Dispositivos e Sistemas de Arquivos
 
-4. Avaliação
+### Gerenciamento de E/S
 
-A nota é composta por:
+Responsável pelo controle dos **dispositivos e periféricos de hardware**.
 
-P1: Prova 1 — 25%
+### Sistemas de Arquivos
 
-P2: Prova 2 — 25%
+Responsáveis pela:
 
-PJ: Projeto
+* Organização dos dados.
+* Acesso aos dados.
 
-AT: Atividades
+### Segurança
 
-Fórmula apresentada na aula:
+Busca proteger o sistema contra ameaças.
 
+### Virtualização
+
+Permite melhor:
+
+* Otimização dos recursos.
+* Flexibilidade.
+
+---
+
+# 📅 Linha do Tempo dos Sistemas Operacionais
+
+> **Importante:** o PDF da Aula 01 solicita a criação de uma linha do tempo com os anos de lançamento dos sistemas operacionais, mas **não apresenta os anos de lançamento**. Portanto, os dados abaixo devem ser preenchidos conforme a pesquisa/atividade realizada no Miro.
+
+```text
+LINHA DO TEMPO
+     │
+     ▼
+┌───────────────┐
+│     ANO       │
+│      ↓        │
+│   SISTEMA     │
+│ OPERACIONAL   │
+└───────┬───────┘
+        │
+        ▼
+┌───────────────┐
+│     ANO       │
+│      ↓        │
+│   SISTEMA     │
+│ OPERACIONAL   │
+└───────┬───────┘
+        │
+        ▼
+┌───────────────┐
+│     ANO       │
+│      ↓        │
+│   SISTEMA     │
+│ OPERACIONAL   │
+└───────┬───────┘
+        │
+        ▼
+┌───────────────┐
+│     ANO       │
+│      ↓        │
+│   SISTEMA     │
+│ OPERACIONAL   │
+└───────┬───────┘
+        │
+        ▼
+┌───────────────┐
+│     ANO       │
+│      ↓        │
+│   SISTEMA     │
+│ OPERACIONAL   │
+└───────────────┘
+```
+
+### Tabela para organizar a linha do tempo
+
+|  Ano | Sistema Operacional | Marco/Observação   |
+| ---: | ------------------- | ------------------ |
+| ____ | __________________  | __________________ |
+| ____ | __________________  | __________________ |
+| ____ | __________________  | __________________ |
+| ____ | __________________  | __________________ |
+| ____ | __________________  | __________________ |
+| ____ | __________________  | __________________ |
+| ____ | __________________  | __________________ |
+| ____ | __________________  | __________________ |
+
+---
+
+# 📚 Atividade da Aula
+
+1. Formar grupos de **3 a 5 integrantes**.
+2. Manter a mesma composição nas atividades semanais.
+3. Criar um repositório no **GitHub**.
+4. Criar um arquivo **Markdown (`.md`)** contendo o resumo da Aula 01.
+5. Criar uma **linha do tempo em formato de mapa mental** mostrando os anos de lançamento dos sistemas operacionais.
+6. Desenvolver a linha do tempo colaborativamente no **Miro**.
+7. Transformar o conteúdo em `.md` para salvar no repositório.
+
+---
+
+# 📊 Critérios de Avaliação
+
+A fórmula apresentada na aula é:
+
+```text
 (P1 × 0,25) + (P2 × 0,25) + ((PJ + AT) × 0,25)
+```
 
-5. Referências da Aula
+Onde:
 
-TANENBAUM, Andrew S.; BOS, Herbert. Sistemas Operacionais Modernos. 4. ed. São Paulo: Pearson, 2016.
+* **P1** = Prova 1
+* **P2** = Prova 2
+* **PJ** = Projeto
+* **AT** = Atividades
 
-SILBERSCHATZ, Abraham; GALVIN, Peter B.; GAGNE, Greg. Fundamentos de Sistemas Operacionais. 9. ed. Rio de Janeiro: LTC, 2015.
+---
 
-STALLINGS, William. Sistemas Operacionais: Conceitos e Projetos. 8. ed. São Paulo: Pearson, 2015.
+# 📌 Resumo
 
-DENARDIN, G. W.; BARRIQUELLO, C. H. Sistemas Operacionais de Tempo Real e sua Aplicação em Sistemas Embarcados. Porto Alegre: Editora da UFRGS, 2014.
+O **Sistema Operacional** é responsável por gerenciar os recursos de hardware e software e servir como interface entre o usuário e a máquina.
 
-AWASTHI, A.; RAWAT, V. Ramificação e Tarefas do Sistema Operacional. Edições Nosso Conhecimento, 2023.
+Os principais conceitos apresentados na Aula 01 foram:
 
-DOWNEY, Allen B. Think OS: A Brief Introduction to Operating Systems. Green Tea Press, 2015.
+* Sistemas Operacionais
+* Kernel
+* Estrutura em camadas
+* Modelos monolítico e modular
+* Modo usuário e modo kernel
+* Escalonamento de processos
+* Gerenciamento de memória
+* Memória virtual
+* Gerenciamento de dispositivos
+* Sistemas de arquivos
+* Segurança
+* Virtualização
 
-Red Hat. Red Hat Enterprise Linux – System Administration Guide.
+A aula também apresenta a criação de um **portfólio de projetos** como forma de demonstrar habilidades práticas, organização, aprendizado e preparação para o mercado profissional.
 
-Docker Inc. Docker Documentation.
+---
+
+# 📖 Referências
+
+* TANENBAUM, Andrew S.; BOS, Herbert. *Sistemas Operacionais Modernos*. 4. ed. São Paulo: Pearson, 2016.
+* SILBERSCHATZ, Abraham; GALVIN, Peter B.; GAGNE, Greg. *Fundamentos de Sistemas Operacionais*. 9. ed. Rio de Janeiro: LTC, 2015.
+* STALLINGS, William. *Sistemas Operacionais: Conceitos e Projetos*. 8. ed. São Paulo: Pearson, 2015.
+* DENARDIN, G. W.; BARRIQUELLO, C. H. *Sistemas Operacionais de Tempo Real e sua Aplicação em Sistemas Embarcados*. Porto Alegre: Editora da UFRGS, 2014.
+* DOWNEY, Allen B. *Think OS: A Brief Introduction to Operating Systems*. Green Tea Press, 2015.
+* Red Hat. *Red Hat Enterprise Linux – System Administration Guide*.
+* Docker Inc. *Docker Documentation*.
