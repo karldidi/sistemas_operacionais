@@ -1,9 +1,12 @@
 # 🧠 Mapa Mental — Sistemas Operacionais
 
-<details open>
-<summary><strong>🖥️ SISTEMAS OPERACIONAIS</strong></summary>
+<details>
+<summary>🖥️ <strong>Sistemas Operacionais</strong></summary>
 
-## 📌 Conceito
+<br>
+
+<details>
+<summary>📌 <strong>Conceito</strong></summary>
 
 * Software essencial
 * Gerencia hardware
@@ -18,41 +21,22 @@
 * Android
 * iOS
 
----
-
-## ⚙️ Estrutura Interna
+</details>
 
 <details>
-<summary>🏗️ Estrutura em Camadas</summary>
+<summary>⚙️ <strong>Estrutura Interna</strong></summary>
 
-* Organização hierárquica
-* Facilita a modularidade
+* Estrutura em camadas
+* Estrutura monolítica
+* Estrutura modular
+* Kernel
 
 </details>
 
 <details>
-<summary>🔧 Monolítica e Modular</summary>
+<summary>🔄 <strong>Gerenciamento de Processos</strong></summary>
 
-* Diferentes abordagens de design do kernel
-
-</details>
-
-<details>
-<summary>🧩 Kernel</summary>
-
-* Núcleo do Sistema Operacional
-* Acesso direto ao hardware
-* Gerenciamento de recursos vitais
-
-</details>
-
----
-
-## 🔄 Gerenciamento de Processos
-
-<details>
-<summary>📊 Escalonamento</summary>
-
+* Escalonamento
 * Eficiência
 * Justiça
 * Tempo de resposta
@@ -65,20 +49,15 @@
 
 </details>
 
----
-
-## 🧠 Gerenciamento de Memória
-
 <details>
-<summary>💾 Memória Principal</summary>
+<summary>🧠 <strong>Gerenciamento de Memória</strong></summary>
+
+**Memória Principal**
 
 * Alocação dinâmica
 * Proteção de memória
 
-</details>
-
-<details>
-<summary>🗃️ Memória Virtual</summary>
+**Memória Virtual**
 
 * Expansão lógica da RAM
 * Paginação
@@ -88,57 +67,42 @@
 
 </details>
 
----
-
-## 🔌 Dispositivos e Arquivos
-
 <details>
-<summary>🖱️ Gerenciamento de E/S</summary>
+<summary>🔌 <strong>Dispositivos e Arquivos</strong></summary>
+
+**Gerenciamento de E/S**
 
 * Controle de hardware periférico
 
-</details>
-
-<details>
-<summary>📁 Sistemas de Arquivos</summary>
+**Sistemas de Arquivos**
 
 * Organização dos dados
 * Acesso aos dados
 
 </details>
 
----
-
-## 🔐 Segurança e Virtualização
-
 <details>
-<summary>🛡️ Segurança</summary>
+<summary>🔐 <strong>Segurança e Virtualização</strong></summary>
+
+**Segurança**
 
 * Proteção contra ameaças
 
-</details>
-
-<details>
-<summary>☁️ Virtualização</summary>
+**Virtualização**
 
 * Otimização de recursos
 * Flexibilidade
 
 </details>
 
----
-
-## 🔑 Modos de Operação
-
 <details>
-<summary>👤 Modo Usuário</summary>
+<summary>🔑 <strong>Modos de Operação</strong></summary>
+
+**Modo Usuário**
 
 * Programas comuns
 
-</details>
-
-<details>
-<summary>⚡ Modo Kernel</summary>
+**Modo Kernel**
 
 * Privilégios elevados
 * Acesso total
@@ -151,129 +115,131 @@
 
 # 📅 Linha do Tempo — Sistemas Operacionais
 
-> Clique em cada ano para expandir as informações.
-
 <details>
-<summary><strong>1956 — GM-NAA I/O</strong></summary>
+<summary>📅 <strong>1956 — GM-NAA I/O</strong></summary>
 
-Um dos primeiros sistemas operacionais para mainframes.
+Um dos primeiros sistemas operacionais para computadores de grande porte.
 
 </details>
 
 <details>
-<summary><strong>1961 — CTSS</strong></summary>
+<summary>📅 <strong>1961 — CTSS</strong></summary>
 
 Sistema de tempo compartilhado.
 
 </details>
 
 <details>
-<summary><strong>1964 — OS/360</strong></summary>
+<summary>📅 <strong>1964 — OS/360</strong></summary>
 
-Sistema operacional da IBM para mainframes.
-
-</details>
-
-<details>
-<summary><strong>1969 — UNIX</strong></summary>
-
-Sistema multiusuário e multitarefa desenvolvido nos Bell Labs.
+Sistema operacional da IBM para a família System/360.
 
 </details>
 
 <details>
-<summary><strong>1974 — CP/M</strong></summary>
+<summary>📅 <strong>1969 — UNIX</strong></summary>
 
-Sistema operacional utilizado em microcomputadores.
+Sistema operacional desenvolvido nos Bell Labs.
 
-</details>
-
-<details>
-<summary><strong>1981 — MS-DOS</strong></summary>
-
-Sistema operacional associado aos primeiros IBM PC.
+* Multiusuário
+* Multitarefa
+* Portabilidade
 
 </details>
 
 <details>
-<summary><strong>1984 — Macintosh System Software</strong></summary>
+<summary>📅 <strong>1974 — CP/M</strong></summary>
 
-Sistema operacional dos primeiros computadores Macintosh.
+Sistema operacional utilizado em diversos microcomputadores.
 
 </details>
 
 <details>
-<summary><strong>1985 — Windows 1.0</strong></summary>
+<summary>📅 <strong>1981 — MS-DOS</strong></summary>
+
+Sistema operacional associado aos primeiros computadores IBM PC.
+
+</details>
+
+<details>
+<summary>📅 <strong>1984 — Macintosh System Software</strong></summary>
+
+Sistema operacional utilizado nos primeiros computadores Macintosh.
+
+</details>
+
+<details>
+<summary>📅 <strong>1985 — Windows 1.0</strong></summary>
 
 Primeira versão do Microsoft Windows.
 
 </details>
 
 <details>
-<summary><strong>1987 — OS/2</strong></summary>
+<summary>📅 <strong>1987 — OS/2</strong></summary>
 
-Sistema desenvolvido inicialmente pela IBM e Microsoft.
+Sistema operacional desenvolvido inicialmente pela IBM e Microsoft.
 
 </details>
 
 <details>
-<summary><strong>1991 — Linux</strong></summary>
+<summary>📅 <strong>1991 — Linux</strong></summary>
 
 Kernel iniciado por Linus Torvalds.
 
 </details>
 
 <details>
-<summary><strong>1993 — Windows NT</strong></summary>
+<summary>📅 <strong>1993 — Windows NT</strong></summary>
 
 Nova família de sistemas operacionais da Microsoft.
 
 </details>
 
 <details>
-<summary><strong>1995 — Windows 95</strong></summary>
+<summary>📅 <strong>1995 — Windows 95</strong></summary>
 
-Uma das versões mais importantes para a popularização do Windows.
+Sistema que ajudou a popularizar o Windows nos computadores pessoais.
 
 </details>
 
 <details>
-<summary><strong>2001 — Mac OS X</strong></summary>
+<summary>📅 <strong>2001 — Mac OS X</strong></summary>
 
 Nova geração do sistema operacional da Apple.
 
 </details>
 
 <details>
-<summary><strong>2001 — Windows XP</strong></summary>
+<summary>📅 <strong>2001 — Windows XP</strong></summary>
 
 Uma das versões mais populares do Windows.
 
 </details>
 
 <details>
-<summary><strong>2007 — iPhone OS</strong></summary>
+<summary>📅 <strong>2007 — iPhone OS</strong></summary>
 
 Sistema operacional apresentado com o primeiro iPhone.
 
 </details>
 
 <details>
-<summary><strong>2008 — Android</strong></summary>
+<summary>📅 <strong>2008 — Android</strong></summary>
 
 Sistema operacional móvel baseado no kernel Linux.
 
 </details>
 
 <details>
-<summary><strong>2015 — Windows 10</strong></summary>
+<summary>📅 <strong>2015 — Windows 10</strong></summary>
 
 Sistema operacional da Microsoft lançado em 2015.
 
 </details>
 
 <details>
-<summary><strong>2021 — Windows 11</strong></summary>
+<summary>📅 <strong>2021 — Windows 11</strong></summary>
 
 Sistema operacional da Microsoft lançado em 2021.
 
@@ -281,7 +247,7 @@ Sistema operacional da Microsoft lançado em 2021.
 
 ---
 
-## 📊 Visão Geral
+# 📊 Linha do Tempo Visual
 
 ```text
 1956 ──► GM-NAA I/O
