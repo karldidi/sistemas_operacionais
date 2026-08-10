@@ -1,2015 +1,1217 @@
-Resumo — História dos Sistemas Operacionais
+# História dos Sistemas Operacionais
 
-Referência
+## Introdução
 
-Obra: Sistemas Operacionais ModernosAutores: Andrew S. Tanenbaum e Herbert BosEdição utilizada no arquivo: 4ª ediçãoSeção: 1.2 — História dos sistemas operacionaisPáginas resumidas: 5 a 13 da edição apresentada no PDFObjetivo: produzir um resumo em Markdown com mais de 500 linhas, mantendo como base o conteúdo da obra.
+A história dos sistemas operacionais está diretamente relacionada à evolução dos computadores.
 
-1. Visão geral da história
+Os sistemas operacionais não surgiram prontos.
 
-Os sistemas operacionais evoluíram junto com os computadores.
+Eles foram sendo desenvolvidos conforme os computadores se tornaram mais rápidos, menores, mais confiáveis e mais acessíveis.
 
-A evolução dos sistemas operacionais está ligada à arquitetura das máquinas.
+De acordo com Tanenbaum e Bos, a evolução dos sistemas operacionais está historicamente ligada à arquitetura dos computadores em que eles eram executados.
 
-O livro organiza a história em gerações para facilitar a compreensão.
+Por esse motivo, a história dos sistemas operacionais pode ser estudada por meio das diferentes gerações de computadores.
 
-Essa divisão em gerações é aproximada.
+Essa divisão em gerações não deve ser entendida como uma separação absolutamente rígida.
 
-As mudanças históricas não ocorreram de forma totalmente linear.
+Os autores destacam que houve sobreposição entre diferentes períodos.
 
-Diferentes tecnologias surgiram e continuaram existindo ao mesmo tempo.
+Algumas tecnologias começaram antes que outras terminassem.
 
-Houve sobreposição entre diferentes períodos.
+Também ocorreram projetos que não tiveram sucesso e caminhos que foram abandonados.
 
-Também ocorreram tentativas que não tiveram continuidade.
+Assim, as gerações servem principalmente como uma forma de organizar e compreender a evolução histórica.
 
-Algumas ideias surgiram antes de existir tecnologia suficiente para realizá-las.
+O capítulo apresenta cinco grandes gerações.
 
-A história apresentada deve ser entendida como um guia.
+A primeira geração corresponde ao período de 1945 a 1955 e está relacionada às válvulas.
 
-Ela não pretende representar uma divisão absolutamente rígida.
+A segunda geração corresponde ao período de 1955 a 1965 e está relacionada aos transistores e aos sistemas em lote.
 
-A evolução dos sistemas operacionais acompanha mudanças no hardware.
+A terceira geração corresponde ao período de 1965 a 1980 e está relacionada aos circuitos integrados e à multiprogramação.
 
-Cada geração trouxe novos problemas para o software.
+A quarta geração começa por volta de 1980 e está relacionada aos computadores pessoais.
 
-Cada geração também criou novas possibilidades.
+A quinta geração começa por volta de 1990 e está relacionada aos computadores móveis.
 
-A primeira geração foi marcada pelas válvulas.
+Antes dessas gerações, porém, existiram importantes acontecimentos que contribuíram para a formação da computação.
 
-A segunda geração foi marcada pelos transistores.
+Um dos personagens apresentados pelos autores é Charles Babbage.
 
-A segunda geração também introduziu sistemas em lote.
+Babbage foi um matemático inglês que viveu entre 1792 e 1871.
 
-A terceira geração foi marcada pelos circuitos integrados.
+Ele projetou uma máquina que é considerada um importante antecedente dos computadores digitais.
 
-A terceira geração consolidou a multiprogramação.
+Essa máquina ficou conhecida como máquina analítica.
 
-A quarta geração foi marcada pelos computadores pessoais.
+Babbage dedicou grande parte de sua vida e de sua fortuna à tentativa de construir a máquina.
 
-A quinta geração está relacionada aos computadores móveis.
+Entretanto, a máquina não chegou a funcionar plenamente.
 
-Ao longo da história, os sistemas ficaram mais complexos.
+Um dos principais problemas estava relacionado à tecnologia disponível naquele período.
 
-Também aumentou a quantidade de usuários atendidos.
+A máquina era essencialmente mecânica.
 
-A interação com o computador tornou-se mais acessível.
+A tecnologia existente não permitia produzir com a precisão necessária as rodas, engrenagens e outros componentes necessários.
 
-O processamento deixou de ser restrito a grandes instituições.
+Por esse motivo, a máquina analítica não chegou a possuir um sistema operacional.
 
-A computação passou de máquinas isoladas para ambientes conectados.
+Babbage percebeu, entretanto, que uma máquina desse tipo precisaria de software.
 
-Sistemas operacionais passaram a lidar com redes.
+Por isso, ele contratou Ada Lovelace.
 
-Sistemas distribuídos passaram a explorar vários computadores.
+Ada Lovelace é apresentada como a primeira programadora do mundo.
 
-Dispositivos móveis levaram os sistemas operacionais a novos formatos.
+A linguagem de programação Ada recebeu esse nome como homenagem a ela.
 
-A história mostra uma relação constante entre hardware e software.
+Esse episódio mostra que a necessidade de software surgiu juntamente com o desenvolvimento das primeiras ideias de máquinas computacionais.
 
-2. Antes dos sistemas operacionais
+Mesmo antes da existência dos sistemas operacionais modernos, já existia a percepção de que uma máquina de cálculo precisava de instruções organizadas para realizar tarefas.
 
-Charles Babbage projetou a máquina analítica.
+A evolução efetiva dos computadores digitais ocorreu principalmente durante o período da Segunda Guerra Mundial.
 
-Babbage viveu entre 1792 e 1871.
+A guerra estimulou uma grande quantidade de pesquisas e projetos relacionados à computação.
 
-A máquina analítica é apresentada como um marco histórico.
+Nesse período, diferentes máquinas foram construídas.
 
-O projeto de Babbage era essencialmente mecânico.
+Entre elas estavam o computador desenvolvido por John Atanasoff e Clifford Berry.
 
-A tecnologia disponível não permitia fabricar suas peças com a precisão necessária.
+Esse equipamento é considerado um dos primeiros computadores digitais funcionais.
 
-A máquina analítica nunca funcionou plenamente.
+Ele utilizava aproximadamente 300 válvulas.
 
-Por isso, ela não chegou a possuir um sistema operacional.
-
-Babbage percebeu que sua máquina precisaria de software.
-
-Para trabalhar com a máquina, Babbage contratou Ada Lovelace.
-
-Ada Lovelace era filha do poeta Lord Byron.
-
-Ela é apresentada como a primeira programadora do mundo.
-
-A linguagem Ada recebeu esse nome como homenagem a ela.
-
-A necessidade de software surgiu antes da existência dos sistemas operacionais.
-
-Isso mostra que programação e sistemas operacionais têm histórias relacionadas.
-
-A máquina analítica representa uma ideia muito anterior aos computadores eletrônicos.
-
-O desenvolvimento efetivo dos computadores digitais ganhou força posteriormente.
-
-A Segunda Guerra Mundial estimulou intensamente a construção de computadores.
-
-Esse período marcou uma mudança importante na história da computação.
-
-Os primeiros computadores digitais eram muito diferentes das máquinas atuais.
-
-Eles eram grandes, caros e difíceis de operar.
-
-A programação ainda não possuía as abstrações modernas.
-
-O conceito de sistema operacional ainda não existia.
-
-3. Primeira geração — 1945 a 1955
-
-3.1 Características gerais
-
-A primeira geração ocorreu aproximadamente entre 1945 e 1955.
-
-As válvulas eram uma tecnologia central dessa geração.
-
-Os primeiros computadores digitais funcionais surgiram nesse contexto.
-
-John Atanasoff e Clifford Berry construíram um computador digital funcional.
-
-O computador foi construído na Universidade do Estado de Iowa.
-
-A máquina utilizava aproximadamente 300 válvulas.
-
-Konrad Zuse construiu o computador Z3 em Berlim.
+Também existiu o computador Z3, construído por Konrad Zuse em Berlim.
 
 O Z3 utilizava relés eletromagnéticos.
 
-Em 1944, o Colossus foi construído e programado em Bletchley Park.
+Em 1944, também foram construídos importantes computadores.
 
-Alan Turing participou do grupo ligado ao Colossus.
+Entre eles estavam o Colossus, desenvolvido e programado por cientistas em Bletchley Park, na Inglaterra.
 
-Howard Aiken construiu o Mark I em Harvard.
+Alan Turing participou dos trabalhos relacionados ao Colossus.
 
-William Mauchley e J. Presper Eckert construíram o ENIAC.
+Também foi construído o Mark I, por Howard Aiken, em Harvard.
 
-O ENIAC foi construído na Universidade da Pensilvânia.
+Outro equipamento importante foi o ENIAC.
 
-As máquinas dessa época eram muito primitivas.
+O ENIAC foi construído por William Mauchley e J. Presper Eckert na Universidade da Pensilvânia.
 
-Alguns computadores utilizavam representação binária.
+Esses computadores apresentavam características diferentes.
 
-Outros utilizavam válvulas.
+Alguns eram binários.
 
-Alguns eram programáveis.
+Alguns utilizavam válvulas.
 
-Mesmo os cálculos mais simples podiam levar bastante tempo.
+Alguns podiam ser programados.
 
-A programação era feita diretamente em código de máquina.
+Apesar dessas diferenças, todos eram bastante primitivos em comparação com os computadores atuais.
 
-Linguagens de programação ainda não eram conhecidas.
+Mesmo operações simples podiam levar vários segundos para serem realizadas.
 
-A linguagem de montagem também ainda não era utilizada.
+Nesse período, ainda não existiam sistemas operacionais.
+
+A programação era realizada diretamente em código de máquina.
+
+Em alguns casos, a programação envolvia conectar fisicamente milhares de cabos em painéis.
+
+As linguagens de programação ainda não existiam.
+
+Até mesmo as linguagens de montagem ainda não haviam surgido.
+
+O trabalho era realizado por um grupo relativamente pequeno de pessoas.
+
+Normalmente, engenheiros eram responsáveis por projetar, construir, programar, operar e manter as máquinas.
+
+O funcionamento dos computadores também exigia um grande esforço humano.
+
+Um programador precisava reservar um período para utilizar a máquina.
+
+Depois, precisava ir até a sala onde o computador estava instalado.
+
+Era necessário inserir o painel de programação.
+
+O programador então passava horas aguardando o resultado.
+
+Durante esse período, havia também o risco de alguma válvula apresentar defeito.
+
+Os computadores utilizavam milhares de válvulas.
+
+Por isso, a confiabilidade era um problema importante.
+
+Grande parte dos problemas resolvidos por esses primeiros computadores envolvia cálculos numéricos.
+
+Entre os exemplos estavam cálculos de senos, cossenos e logaritmos.
+
+Também eram realizados cálculos relacionados às trajetórias de artilharia.
+
+No início da década de 1950, houve uma melhoria importante no processo de programação.
+
+Essa melhoria ocorreu com a introdução dos cartões perfurados.
+
+Os cartões permitiam escrever programas e posteriormente lê-los pela máquina.
+
+Isso eliminou a necessidade de utilizar exclusivamente painéis de programação.
+
+Apesar da melhoria, o processo ainda era bastante trabalhoso.
+
+Essa realidade caracteriza a primeira geração dos computadores.
+
+# Primeira Geração
+
+A primeira geração dos sistemas computacionais corresponde aproximadamente ao período entre 1945 e 1955.
+
+Essa geração foi marcada principalmente pelo uso de válvulas.
+
+As válvulas eram componentes eletrônicos utilizados para realizar operações.
+
+Elas permitiram a construção dos primeiros computadores eletrônicos digitais.
+
+Entretanto, apresentavam problemas relacionados ao tamanho, ao consumo de energia e à confiabilidade.
+
+Os computadores eram enormes.
+
+Eles ocupavam salas inteiras.
+
+O funcionamento exigia ambientes especialmente preparados.
+
+A quantidade de componentes era muito grande.
+
+Uma falha em uma válvula poderia interromper a execução de um programa.
+
+O processo de programação também era extremamente limitado.
+
+Os programas eram escritos diretamente em código de máquina.
+
+Não existiam linguagens de alto nível.
 
 Não existiam sistemas operacionais.
 
-Um mesmo grupo frequentemente projetava a máquina.
+O computador executava diretamente as instruções fornecidas pelo programador.
 
-O grupo também construía a máquina.
+O usuário precisava ter conhecimento muito detalhado da máquina.
 
-O grupo programava a máquina.
+A interação com o computador era completamente diferente da experiência atual.
 
-O grupo operava a máquina.
+Não havia uma interface gráfica.
 
-O grupo fazia a manutenção da máquina.
+Não havia teclado e monitor utilizados da forma como conhecemos atualmente.
 
-A separação profissional das funções ainda não existia.
+O trabalho dependia de painéis, cabos e posteriormente cartões perfurados.
 
-O computador era tratado como uma máquina que precisava ser operada diretamente.
+A utilização dos computadores era também muito limitada.
 
-3.2 Programação por painéis
+As máquinas eram caras.
 
-A programação podia ser realizada conectando cabos em painéis.
+A manutenção exigia profissionais especializados.
 
-Milhares de cabos podiam ser utilizados para controlar a máquina.
+A operação dependia de conhecimento técnico.
 
-O trabalho era manual.
+Com o desenvolvimento dos cartões perfurados, o processo começou a melhorar.
 
-A configuração do computador fazia parte do processo de programação.
+Os programas podiam ser preparados previamente.
 
-O programador precisava reservar um período de utilização.
+Depois, os cartões eram inseridos no computador.
 
-Havia uma ficha de registro para reservar tempo de máquina.
+Mesmo assim, o processo ainda era essencialmente manual.
 
-Depois da reserva, o programador dirigia-se à sala de máquinas.
+A ausência de um sistema operacional fazia com que o programador tivesse grande responsabilidade sobre o funcionamento da máquina.
 
-O painel de programação era inserido no computador.
+O computador não possuía uma camada de software responsável por organizar os recursos.
 
-A execução dependia do funcionamento correto das válvulas.
+Não havia um mecanismo geral para administrar automaticamente os programas.
 
-Uma falha de válvula poderia interromper o trabalho.
+Não havia um sistema responsável por organizar a execução das tarefas.
 
-Algumas máquinas possuíam milhares de válvulas.
+Essa situação começou a mudar na geração seguinte.
 
-A operação exigia atenção constante.
+# Segunda Geração
 
-Os problemas tratados eram principalmente matemáticos.
+A segunda geração corresponde aproximadamente ao período entre 1955 e 1965.
 
-Eram comuns cálculos de tabelas.
+Sua principal característica tecnológica foi a introdução dos transistores.
 
-Tabelas de senos podiam ser calculadas.
+A introdução dos transistores modificou profundamente a computação.
 
-Tabelas de cossenos também podiam ser calculadas.
+Os computadores se tornaram muito mais confiáveis.
 
-Tabelas de logaritmos eram outro exemplo.
+Isso tornou possível fabricar computadores para serem vendidos a clientes.
 
-Trajetórias de artilharia também eram calculadas.
+Antes disso, as máquinas eram muito experimentais e difíceis de operar.
 
-O computador era usado principalmente para tarefas numéricas.
+Com os transistores, tornou-se possível utilizar os computadores para realizar trabalhos úteis de maneira mais consistente.
 
-O processo era pouco automatizado.
+Também ocorreu uma mudança na organização do trabalho.
 
-Não havia uma camada de software responsável por organizar a execução.
+Passou a existir uma separação mais clara entre diferentes profissionais.
 
-Não existia um sistema operacional para administrar recursos.
+Projetistas passaram a desempenhar funções específicas.
 
-O programador tinha contato muito direto com o hardware.
+Construtores também passaram a ter funções específicas.
 
-A produtividade era limitada pela forma de operação.
+Operadores passaram a cuidar da operação das máquinas.
 
-O tempo de máquina era um recurso precioso.
+Programadores passaram a desenvolver programas.
 
-3.3 Cartões perfurados
+Profissionais de manutenção passaram a cuidar dos equipamentos.
 
-No início da década de 1950, o procedimento melhorou.
+Os computadores dessa geração eram conhecidos como computadores de grande porte ou mainframes.
 
-Os cartões perfurados passaram a ser utilizados.
-
-Programas podiam ser registrados em cartões.
-
-Os cartões podiam ser lidos pela máquina.
-
-Isso eliminou parte da necessidade de usar painéis de programação.
-
-Apesar da melhoria, o restante do procedimento continuava semelhante.
-
-O computador ainda era operado de maneira muito direta.
-
-O processamento continuava limitado pela tecnologia.
-
-Ainda não havia sistemas operacionais.
-
-O uso de cartões representou uma forma inicial de automatização da entrada.
-
-A evolução dos meios de entrada preparou o caminho para sistemas mais organizados.
-
-4. Segunda geração — 1955 a 1965
-
-4.1 Transistores
-
-A segunda geração ocorreu aproximadamente entre 1955 e 1965.
-
-O transistor mudou radicalmente a situação.
-
-Os computadores tornaram-se muito mais confiáveis.
-
-A maior confiabilidade permitiu a fabricação comercial das máquinas.
-
-Clientes passaram a comprar computadores esperando utilizá-los por períodos prolongados.
-
-O computador passou a ser um produto comercial viável.
-
-Surgiu uma separação mais clara entre diferentes funções profissionais.
-
-Projetistas passaram a ter funções distintas.
-
-Construtores passaram a ter funções distintas.
-
-Operadores passaram a ter funções distintas.
-
-Programadores passaram a ter funções distintas.
-
-Técnicos de manutenção também passaram a ter funções específicas.
-
-Os computadores dessa geração eram chamados de mainframes.
-
-Os mainframes ocupavam salas grandes.
-
-As salas eram especialmente preparadas para as máquinas.
+Essas máquinas normalmente ficavam instaladas em grandes salas.
 
 As salas eram climatizadas.
 
-A operação era realizada por equipes profissionais.
+O equipamento era caro.
 
-O custo dos computadores ainda era muito elevado.
+Por esse motivo, somente grandes empresas, importantes órgãos governamentais e universidades tinham condições de adquirir essas máquinas.
 
-Grandes corporações conseguiam adquirir essas máquinas.
+O processo de execução de um programa ainda era bastante demorado para o usuário.
 
-Agências governamentais também conseguiam adquiri-las.
+Um programador podia escrever um programa em papel.
 
-Grandes universidades estavam entre os usuários.
+Depois, o programa era perfurado em cartões.
 
-O computador continuava distante do usuário comum.
+As linguagens utilizadas incluíam FORTRAN e linguagem de montagem.
 
-A programação era mais estruturada que na geração anterior.
-
-FORTRAN era uma linguagem utilizada.
-
-A linguagem de montagem também era usada.
-
-O processamento continuava voltado principalmente a grandes tarefas.
-
-4.2 Processo de execução de uma tarefa
-
-O programador escrevia o programa em papel.
-
-O programa podia ser escrito em FORTRAN.
-
-Também podia ser escrito em linguagem de montagem.
-
-O programa era perfurado em cartões.
-
-O maço de cartões era levado à sala de entrada.
+O conjunto de cartões era então levado para uma sala de entrada.
 
 O operador recebia os cartões.
 
-O programador precisava aguardar o resultado.
+O programador precisava aguardar até que o resultado estivesse pronto.
 
-O computador executava uma tarefa por vez.
+Quando o computador terminava uma tarefa, o operador recolhia a saída da impressora.
 
-O operador retirava a saída depois da execução.
+Essa saída era levada para outra sala.
 
-A saída era levada para a sala apropriada.
+O programador poderia então buscar o resultado posteriormente.
 
-O programador buscava o resultado posteriormente.
+Esse processo desperdiçava bastante tempo.
 
-O operador colocava a próxima tarefa no computador.
+Os operadores precisavam transportar cartões.
 
-Se o compilador FORTRAN fosse necessário, ele também precisava ser carregado.
+Também precisavam transportar fitas.
 
-O compilador podia estar armazenado em uma fita.
+Precisavam preparar compiladores.
 
-O processo envolvia deslocamentos físicos dos operadores.
+Precisavam cuidar das impressões.
 
-Muito tempo de computador era desperdiçado.
+Grande parte do tempo do computador podia ser desperdiçada enquanto essas atividades eram realizadas.
 
-O tempo de operação era caro.
+Como os computadores eram muito caros, tornou-se importante encontrar maneiras de reduzir esse desperdício.
 
-A utilização eficiente do computador tornou-se uma preocupação.
+Uma das principais soluções foi o processamento em lote.
 
-Era necessário reduzir os períodos em que a máquina ficava parada.
+O processamento em lote consiste em reunir várias tarefas.
 
-A solução foi organizar tarefas em lotes.
+Essas tarefas eram organizadas em um conjunto.
 
-5. Sistemas em lote — batch
+Esse conjunto era posteriormente processado de maneira automática.
 
-5.1 Ideia do processamento em lote
+Uma máquina menor podia ser utilizada para ler os cartões.
 
-O sistema em lote reunia várias tarefas.
+Um exemplo citado pelos autores é o IBM 1401.
 
-As tarefas eram agrupadas antes de serem processadas.
+O IBM 1401 era adequado para leitura de cartões.
 
-Um lote podia ser preparado em uma sala de entrada.
+Também podia copiar fitas e realizar impressões.
 
-Um computador menor podia ler os cartões.
+Outra máquina, como o IBM 7094, podia ser utilizada para realizar os cálculos.
 
-O IBM 1401 é citado como exemplo.
+O processo envolvia a preparação de um lote de tarefas.
 
-O 1401 era relativamente barato.
+Os cartões eram lidos e gravados em uma fita magnética.
 
-Ele era eficiente para leitura de cartões.
+A fita era então levada para a máquina principal.
 
-Também era utilizado para copiar fitas.
+O operador carregava um programa especial.
 
-Também podia imprimir resultados.
-
-Não era adequado para cálculos numéricos pesados.
-
-Máquinas mais caras realizavam a computação principal.
-
-O IBM 7094 é citado como exemplo.
-
-O lote de tarefas era convertido para fita magnética.
-
-Depois, a fita era levada até a sala do computador principal.
-
-A fita era instalada em uma unidade de fita.
-
-Um programa especial era carregado.
-
-Esse programa era um antecessor do sistema operacional moderno.
+Esse programa era um precursor do sistema operacional moderno.
 
 Ele lia a primeira tarefa da fita.
 
 Depois executava essa tarefa.
 
-Ao terminar uma tarefa, lia a próxima.
+Quando a tarefa terminava, o sistema automaticamente iniciava a tarefa seguinte.
 
-A saída era inicialmente gravada em outra fita.
+A saída era inicialmente armazenada em outra fita.
 
-O processamento podia continuar sem intervenção a cada tarefa.
+Quando todo o lote terminava, as fitas eram levadas novamente para o equipamento responsável pela impressão.
 
-Ao final do lote, as fitas eram retiradas.
+Esse processo reduzia o tempo perdido com operações manuais.
 
-A fita de saída podia ser levada para outro computador.
+A ideia central era manter o computador principal ocupado com processamento.
 
-O 1401 podia imprimir a saída de forma independente.
+As tarefas eram preparadas anteriormente.
 
-O processo reduzia o tempo desperdiçado pelos operadores.
+O operador não precisava acompanhar cada etapa individualmente.
 
-O computador principal ficava mais tempo realizando trabalho útil.
+Os sistemas em lote foram uma etapa importante na história dos sistemas operacionais.
 
-5.2 Estrutura de uma tarefa em lote
+Eles introduziram mecanismos para organizar a execução de várias tarefas.
 
-Uma tarefa típica possuía cartões de controle.
+Também surgiram formas primitivas de controle de tarefas.
 
-O cartão $JOB identificava informações da tarefa.
+Cartões especiais indicavam ao sistema o que deveria ser feito.
 
-Ele especificava um limite máximo de processamento.
+Um cartão podia indicar o início de uma tarefa.
 
-Também indicava a conta a ser debitada.
+Outro podia solicitar o carregamento de um compilador.
 
-O nome do programador podia ser informado.
+Outro podia solicitar o carregamento do programa.
 
-O cartão $FORTRAN indicava a necessidade do compilador.
+Outro podia iniciar a execução.
 
-O compilador FORTRAN era carregado da fita do sistema.
+Um último cartão podia indicar o fim da tarefa.
 
-Em seguida vinha o programa FORTRAN.
+Esses mecanismos foram precursores das linguagens modernas de controle de tarefas e dos interpretadores de comandos.
 
-O cartão $LOAD orientava o carregamento do programa objeto.
+Os computadores da segunda geração eram utilizados principalmente em cálculos científicos e de engenharia.
 
-O programa compilado podia ser colocado em uma fita de rascunho.
+Muitos programas eram escritos em FORTRAN.
 
-O cartão $RUN indicava a execução.
+Também era utilizada linguagem de montagem.
 
-Os dados necessários vinham depois.
+Entre os sistemas operacionais típicos dessa geração estavam o FMS e o IBSYS.
 
-O cartão $END indicava o fim da tarefa.
+O FMS significa Fortran Monitor System.
 
-Esses cartões de controle eram antecessores de mecanismos posteriores.
+O IBSYS era o sistema operacional da IBM utilizado no 7094.
 
-Eles ajudaram a formar a ideia de linguagem de controle de tarefas.
+A segunda geração, portanto, marcou uma mudança importante.
 
-Também anteciparam os interpretadores de comandos.
+Os computadores deixaram de ser máquinas extremamente experimentais.
 
-A execução deixou de depender de uma intervenção manual em cada etapa.
+Passaram a ser equipamentos utilizados por organizações.
 
-5.3 Sistemas operacionais da segunda geração
+O processamento em lote passou a organizar melhor a execução das tarefas.
 
-Os computadores da segunda geração eram usados em cálculos científicos.
+Essas mudanças prepararam o caminho para a terceira geração.
 
-Também eram usados em cálculos de engenharia.
+# Terceira Geração
 
-Problemas de física eram exemplos de aplicação.
+A terceira geração corresponde aproximadamente ao período entre 1965 e 1980.
 
-Problemas de engenharia também eram exemplos.
+Ela foi marcada pelo desenvolvimento dos circuitos integrados.
 
-Equações diferenciais podiam ser processadas.
+No início da década de 1960, os fabricantes possuíam diferentes linhas de computadores.
 
-FORTRAN era uma linguagem muito importante nesse período.
+Existiam máquinas voltadas para cálculos científicos.
 
-A linguagem de montagem também era utilizada.
+Essas máquinas eram utilizadas em ciência e engenharia.
 
-O FMS era um sistema operacional típico.
+Também existiam computadores voltados para aplicações comerciais.
 
-FMS significa Fortran Monitor System.
+Esses computadores eram utilizados em tarefas como ordenação e impressão de dados.
 
-O IBSYS era outro sistema operacional importante.
+Manter duas linhas diferentes era caro para os fabricantes.
 
-O IBSYS era associado aos computadores IBM 7094.
+Também existia um problema para os clientes.
 
-Esses sistemas começaram a automatizar tarefas de execução.
+Uma empresa podia começar utilizando um computador pequeno.
 
-Ainda assim, os sistemas eram diferentes dos sistemas interativos modernos.
+Depois de algum tempo, poderia precisar de uma máquina maior.
 
-O processamento em lote era uma característica central.
+O ideal seria poder utilizar os mesmos programas antigos na máquina nova.
 
-6. Terceira geração — 1965 a 1980
+A IBM tentou solucionar esse problema com o System/360.
 
-6.1 Circuitos integrados
+O System/360 era uma família de computadores compatíveis.
 
-A terceira geração ocorreu aproximadamente entre 1965 e 1980.
+A família possuía modelos com diferentes níveis de preço e desempenho.
 
-Os circuitos integrados tiveram papel fundamental.
+Os modelos utilizavam a mesma arquitetura básica.
 
-Os fabricantes possuíam linhas de computadores diferentes.
+Também utilizavam o mesmo conjunto de instruções.
 
-Uma linha atendia aplicações científicas.
+A ideia era permitir que programas escritos para um modelo pudessem funcionar em outros modelos.
 
-Outra linha atendia aplicações comerciais.
+O System/360 foi projetado para atender tanto necessidades científicas quanto comerciais.
 
-As duas linhas podiam ser incompatíveis.
+Essa ideia de uma família única de computadores foi muito importante.
 
-Computadores científicos eram orientados por palavras.
+Ela também apresentou dificuldades.
 
-O IBM 7094 é exemplo de computador científico.
+O sistema operacional precisava funcionar em máquinas pequenas e grandes.
 
-Ele era usado para cálculos numéricos complexos.
+Precisava lidar com diferentes quantidades de memória.
 
-Computadores comerciais eram orientados por caracteres.
+Precisava lidar com diferentes dispositivos de entrada e saída.
 
-O IBM 1401 é exemplo de computador comercial.
+Também precisava funcionar em ambientes científicos.
 
-Ele era usado em atividades de ordenação.
+Além disso, precisava funcionar em ambientes comerciais.
 
-Também era usado para impressão de fitas.
+O sistema operacional desenvolvido para o System/360 foi o OS/360.
 
-Bancos utilizavam computadores comerciais.
+O OS/360 tornou-se extremamente grande e complexo.
 
-Companhias de seguros também utilizavam essas máquinas.
-
-Manter duas linhas de produtos era caro para os fabricantes.
-
-Clientes também enfrentavam problemas de compatibilidade.
-
-Um cliente poderia começar com uma máquina pequena.
-
-Depois poderia precisar de uma máquina maior.
-
-O cliente queria manter seus programas antigos.
-
-A IBM procurou resolver esse problema com uma família única.
-
-O resultado foi o System/360.
-
-6.2 System/360
-
-O System/360 foi uma série de máquinas compatíveis.
-
-A série incluía máquinas de diferentes tamanhos.
-
-Os modelos variavam em preço.
-
-Também variavam em desempenho.
-
-Variavam em memória máxima.
-
-Variavam em velocidade do processador.
-
-Variavam na quantidade de dispositivos de E/S.
-
-A arquitetura era compartilhada entre os modelos.
-
-O conjunto de instruções era compatível.
-
-Em princípio, programas poderiam ser executados em diferentes modelos.
-
-A família atendia aplicações científicas.
-
-Também atendia aplicações comerciais.
-
-O conceito de uma família compatível foi amplamente adotado.
-
-A IBM lançou sucessores compatíveis posteriormente.
-
-Séries 370, 4300, 3080 e 3090 são citadas.
-
-A linha chegou posteriormente à zSeries.
-
-Os descendentes continuaram presentes em centros de computação.
-
-Grandes bancos de dados são uma aplicação citada.
-
-Sistemas de reservas de companhias aéreas são outro exemplo.
-
-Servidores de sites de grande demanda também aparecem como aplicação.
-
-O System/360 usava circuitos integrados de pequena escala.
-
-Isso trouxe vantagem de preço e desempenho.
-
-A nova tecnologia era superior aos transistores individuais em diversos aspectos.
-
-O sucesso do System/360 influenciou outros fabricantes.
-
-6.3 Complexidade do OS/360
-
-A ideia de uma família única também criou dificuldades.
-
-O sistema operacional precisava funcionar em máquinas muito diferentes.
-
-O OS/360 precisava atender sistemas pequenos.
-
-Também precisava atender sistemas muito grandes.
-
-Precisava funcionar com poucos periféricos.
-
-Precisava funcionar com muitos periféricos.
-
-Precisava atender ambientes comerciais.
-
-Precisava atender ambientes científicos.
-
-Também precisava manter eficiência em todos esses cenários.
-
-As exigências eram conflitantes.
-
-Era muito difícil produzir um sistema igualmente adequado para todos os modelos.
-
-O resultado foi um sistema operacional enorme.
-
-O OS/360 era muito mais complexo que sistemas anteriores.
-
-Ele era maior que o FMS.
-
-O sistema possuía milhões de linhas de linguagem de montagem.
+Ele possuía milhões de linhas de código.
 
 Milhares de programadores trabalharam no projeto.
 
-O sistema possuía muitos erros.
+O sistema apresentou muitos erros.
 
-Novas versões eram necessárias para corrigir problemas.
+Novas versões eram lançadas para corrigir problemas.
 
-Uma correção podia introduzir novos erros.
+Entretanto, novas versões também podiam introduzir novos problemas.
 
-O número de erros podia permanecer elevado ao longo do tempo.
+Apesar das dificuldades, o OS/360 e outros sistemas semelhantes tiveram importância histórica.
 
-Fred Brooks participou do projeto do OS/360.
+Eles popularizaram diversas técnicas importantes.
 
-Brooks escreveu posteriormente sobre suas experiências.
+Uma das mais importantes foi a multiprogramação.
 
-O livro de Brooks apresenta uma crítica à complexidade do desenvolvimento.
+A multiprogramação permitia manter várias tarefas na memória ao mesmo tempo.
 
-Apesar dos problemas, o OS/360 foi útil para muitos clientes.
+Isso aumentava a utilização da CPU.
 
-Os sistemas de terceira geração introduziram técnicas importantes.
+Em sistemas anteriores, quando uma tarefa precisava esperar por uma operação de entrada ou saída, a CPU poderia ficar parada.
 
-A multiprogramação foi uma das técnicas mais importantes.
+Isso era especialmente problemático em aplicações comerciais.
 
-7. Multiprogramação
+O tempo de espera por operações de entrada e saída podia representar uma grande parte do tempo total.
 
-Sistemas anteriores podiam deixar a CPU ociosa durante operações de E/S.
-
-No IBM 7094, uma tarefa podia esperar por uma fita.
-
-Durante a espera, a CPU ficava parada.
-
-Em aplicações científicas, a E/S podia ser relativamente esporádica.
-
-Nesses casos, o desperdício era menor.
-
-Em processamento comercial, a situação era diferente.
-
-A espera por E/S podia ocupar grande parte do tempo.
-
-A espera podia representar 80% a 90% do tempo total.
-
-Deixar uma CPU cara parada era indesejável.
-
-A multiprogramação foi uma resposta a esse problema.
+A multiprogramação buscava resolver esse problema.
 
 A memória era dividida em várias partes.
 
-Cada partição podia conter uma tarefa.
+Cada parte podia conter uma tarefa.
 
-Enquanto uma tarefa esperava por E/S, outra podia usar a CPU.
+Enquanto uma tarefa esperava por uma operação de entrada ou saída, outra tarefa poderia utilizar a CPU.
 
-Assim, a CPU poderia permanecer ocupada.
+Dessa maneira, o processador poderia permanecer ocupado.
 
-Quanto mais tarefas adequadas estivessem na memória, maior poderia ser a utilização.
+A multiprogramação exigia mecanismos de proteção.
 
-O objetivo era manter a CPU ocupada por mais tempo.
+Uma tarefa não poderia interferir indevidamente na memória utilizada por outra tarefa.
 
-A multiprogramação exigia proteção entre tarefas.
+Por isso, os computadores dessa geração possuíam hardware especial para proteção.
 
-Uma tarefa não poderia interferir livremente em outra.
+Outro desenvolvimento importante foi o spooling.
 
-O hardware de proteção ajudava nessa tarefa.
+O termo spooling vem da expressão Simultaneous Peripheral Operation On Line.
 
-O IBM 360 possuía recursos de hardware para proteção.
+O spooling permitia transferir tarefas dos cartões para o disco.
 
-A multiprogramação aumentou a eficiência do processamento.
+Assim que uma tarefa terminava, outra tarefa poderia ser carregada.
 
-Ela permitiu aproveitar melhor o tempo do processador.
+Isso reduzia a necessidade de transportar fisicamente fitas.
 
-Também exigiu sistemas operacionais mais sofisticados.
+Também podia ser utilizado para organizar saídas.
 
-O sistema operacional passou a controlar múltiplas tarefas.
+A multiprogramação e o spooling aumentaram bastante a eficiência.
 
-A memória tornou-se um recurso compartilhado entre programas.
+Mesmo assim, os sistemas ainda eram basicamente sistemas em lote.
 
-8. Spooling
+Os programadores precisavam esperar muito tempo para obter resultados.
 
-Outra técnica importante foi o spooling.
+Uma pequena falha no programa poderia provocar a necessidade de repetir todo o processo.
 
-A palavra vem de Simultaneous Peripheral Operation On Line.
+Isso poderia representar várias horas de espera.
 
-Tarefas podiam ser transferidas dos cartões para o disco.
+Os programadores passaram então a buscar uma forma mais interativa de utilizar os computadores.
 
-A transferência podia ocorrer assim que as tarefas chegavam.
+Foi nesse contexto que surgiu o compartilhamento de tempo.
 
-O sistema operacional podia armazenar tarefas no disco.
+O timesharing é uma variante da multiprogramação.
 
-Quando uma tarefa terminava, outra podia ser carregada.
+Nesse modelo, cada usuário possui um terminal conectado ao sistema.
 
-A partição liberada podia receber uma nova tarefa.
+A CPU é compartilhada entre os usuários.
 
-O sistema podia organizar melhor a sequência de execução.
+Quando um usuário não está utilizando o processador, outro pode receber tempo de CPU.
 
-O spooling também era usado para saídas.
+Isso permite oferecer uma resposta rápida para diferentes usuários.
 
-A técnica reduziu a dependência de fitas transportadas manualmente.
-
-O IBM 1401 deixou de ser necessário para algumas dessas funções.
-
-Grande parte do transporte de fitas desapareceu.
-
-A automação reduziu o trabalho operacional.
-
-O sistema operacional passou a mediar mais etapas do processamento.
-
-A técnica melhorou a utilização dos equipamentos.
-
-A entrada e a saída passaram a ser tratadas de maneira mais organizada.
-
-9. Limitações dos sistemas em lote
-
-Os sistemas de terceira geração eram adequados para grandes cálculos.
-
-Também funcionavam bem em processamento comercial.
-
-Mesmo assim, continuavam sendo essencialmente sistemas em lote.
-
-Programadores sentiam falta de interação direta com a máquina.
-
-Na primeira geração, o programador podia ter a máquina por algumas horas.
-
-Isso permitia corrigir erros rapidamente.
-
-Na terceira geração, o retorno podia levar horas.
-
-Um erro pequeno podia causar a falha da compilação.
-
-Uma vírgula fora do lugar podia provocar uma falha.
-
-O programador podia perder metade de um dia.
-
-O tempo de resposta tornou-se um problema importante.
-
-O desejo por respostas mais rápidas estimulou outra abordagem.
-
-Essa abordagem foi o compartilhamento de tempo.
-
-O timesharing surgiu como uma variante da multiprogramação.
-
-10. Timesharing
-
-Timesharing significa compartilhamento de tempo.
-
-O sistema permitia que usuários trabalhassem com terminais on-line.
-
-Cada usuário podia ter uma sessão interativa.
-
-A CPU era compartilhada entre diferentes tarefas.
-
-Nem todos os usuários utilizavam a CPU simultaneamente.
-
-Muitos usuários podiam estar pensando ou realizando outras atividades.
-
-A CPU podia então atender os usuários que precisavam de processamento.
-
-Os comandos de depuração normalmente eram curtos.
-
-Um comando poderia solicitar a compilação de um procedimento.
-
-A execução de comandos curtos permitia resposta rápida.
-
-Um sistema podia atender vários usuários interativos.
-
-Tarefas grandes em lote também poderiam ser executadas em segundo plano.
-
-O primeiro sistema de timesharing de uso geral citado é o CTSS.
+O primeiro sistema de compartilhamento de tempo para uso geral citado pelos autores é o CTSS.
 
 CTSS significa Compatible Time Sharing System.
 
-O CTSS foi desenvolvido no M.I.T.
+Ele foi desenvolvido no MIT.
 
-Ele utilizava um 7094 modificado.
+O sistema foi executado em um IBM 7094 especialmente modificado.
 
-O hardware de proteção foi importante para a popularização do timesharing.
+O timesharing tornou-se mais popular quando o hardware de proteção passou a ser amplamente utilizado.
 
-O compartilhamento de tempo mudou a relação do programador com a máquina.
+Depois do sucesso do CTSS, surgiu uma proposta ainda mais ambiciosa.
 
-A interação deixou de depender exclusivamente de cartões e lotes.
+MIT, Bell Labs e General Electric decidiram trabalhar no desenvolvimento do MULTICS.
 
-A ideia de usuários conectados diretamente ganhou importância.
+O objetivo era criar uma espécie de computador utilitário.
 
-O computador passou a servir vários usuários de maneira interativa.
+A ideia era que centenas de usuários pudessem compartilhar um único computador.
 
-11. MULTICS
+O conceito era semelhante ao fornecimento de eletricidade.
 
-Depois do CTSS, o M.I.T. participou de um novo projeto.
+O usuário simplesmente utilizaria a capacidade computacional quando precisasse.
 
-Bell Labs participou do projeto.
+O projeto MULTICS foi muito ambicioso para sua época.
 
-A General Electric também participou.
+Ele buscava suportar centenas de usuários simultaneamente.
 
-A proposta era criar um computador utilitário.
+Apesar das dificuldades, introduziu diversas ideias importantes.
 
-A ideia era oferecer computação para centenas de usuários.
-
-O modelo lembrava o fornecimento de eletricidade.
-
-O usuário poderia conectar-se e utilizar a capacidade disponível.
-
-O projeto recebeu o nome MULTICS.
-
-MULTICS significa MULTiplexed Information and Computing Service.
-
-O projeto pretendia oferecer computação compartilhada em grande escala.
-
-Os projetistas imaginavam uma máquina muito grande.
-
-Ela deveria atender muitas pessoas simultaneamente.
-
-O projeto era extremamente ambicioso para a época.
-
-O hardware disponível limitava a realização da ideia.
-
-O MULTICS conseguiu suportar centenas de usuários.
-
-A máquina tinha capacidade de E/S elevada.
-
-O projeto introduziu várias ideias importantes.
-
-Mesmo assim, não se tornou um grande sucesso comercial.
-
-Um dos problemas foi a linguagem PL/I.
-
-O compilador PL/I demorou para ficar disponível.
-
-Quando apareceu, seu funcionamento era considerado precário.
-
-O projeto também era muito ambicioso.
+O MULTICS acabou não se tornando um grande sucesso comercial.
 
 A Bell Labs abandonou o projeto.
 
-A General Electric também abandonou o negócio de computadores.
+A General Electric também deixou o negócio de computadores.
 
-O M.I.T. continuou trabalhando no MULTICS.
+O MIT continuou trabalhando no sistema.
 
-O projeto finalmente entrou em funcionamento.
+Posteriormente, o MULTICS foi comercializado pela Honeywell.
 
-O sistema foi vendido comercialmente posteriormente.
+O sistema chegou a ser instalado em diversas empresas e universidades.
 
-A Honeywell adquiriu o negócio de computadores da GE.
+Apesar do sucesso comercial limitado, sua influência foi enorme.
 
-O MULTICS foi instalado em dezenas de empresas e universidades.
+Muitas ideias do MULTICS influenciaram sistemas operacionais posteriores.
 
-Aproximadamente 80 organizações são mencionadas.
+Entre eles estão o UNIX e diversos de seus derivados.
 
-Alguns usuários mantiveram o sistema por muitos anos.
+O texto também relaciona essa ideia à computação em nuvem.
 
-General Motors utilizou MULTICS.
+Na computação em nuvem, dispositivos relativamente pequenos podem se conectar a grandes centros de processamento.
 
-Ford também utilizou MULTICS.
+Grande parte do processamento pode ser realizada em servidores remotos.
 
-A Agência de Segurança Nacional dos Estados Unidos também é citada.
+O dispositivo local pode funcionar principalmente como uma interface para o usuário.
 
-Algumas instalações abandonaram MULTICS somente no fim da década de 1990.
+Outra evolução importante da terceira geração foi o crescimento dos minicomputadores.
 
-A influência do MULTICS foi maior que seu sucesso comercial.
+Um dos primeiros exemplos foi o DEC PDP-1.
 
-O sistema influenciou sistemas operacionais posteriores.
+O PDP-1 apareceu em 1961.
 
-UNIX foi especialmente influenciado.
+Ele possuía uma capacidade muito menor que grandes computadores da época.
 
-Derivados do UNIX também receberam essa influência.
+Entretanto, seu preço também era muito inferior.
 
-FreeBSD é citado.
+Isso permitiu que novas organizações tivessem acesso à computação.
 
-Linux é citado.
+A família PDP continuou evoluindo.
 
-iOS é citado.
+Um dos modelos posteriores foi o PDP-11.
 
-Android é citado.
+O PDP-11 teve grande importância para a história do UNIX.
 
-Muitas ideias do MULTICS continuaram presentes na evolução dos sistemas.
+Ken Thompson, um dos cientistas da computação que havia trabalhado no MULTICS, encontrou um PDP-7 que não estava sendo utilizado.
 
-12. Minicomputadores
+Ele decidiu escrever uma versão simplificada do MULTICS para essa máquina.
 
-A terceira geração também trouxe o crescimento dos minicomputadores.
+Esse trabalho posteriormente evoluiu para o UNIX.
 
-O DEC PDP-1 é citado como marco.
+O UNIX tornou-se muito popular.
 
-O PDP-1 começou a ser produzido em 1961.
+Ele foi utilizado em universidades.
 
-O PDP-1 possuía 4K palavras de 18 bits.
+Também foi utilizado em órgãos governamentais.
 
-Seu preço era muito inferior ao de um 7094.
+Além disso, foi utilizado em empresas.
 
-O custo citado era de aproximadamente US$ 120.000.
+Uma característica importante do UNIX foi a disponibilidade de seu código-fonte.
 
-O preço era inferior a 5% do preço de um 7094.
+Isso permitiu que diferentes organizações desenvolvessem suas próprias versões.
 
-Para determinadas tarefas não numéricas, o PDP-1 era competitivo.
+Essa liberdade também provocou problemas de compatibilidade.
 
-O crescimento dos minicomputadores criou uma nova indústria.
+Surgiram várias versões diferentes e incompatíveis.
 
-Outros computadores PDP foram lançados depois.
+Duas versões importantes foram o System V, associado à AT&T, e o BSD, associado à Universidade da Califórnia em Berkeley.
 
-Os modelos PDP não eram necessariamente compatíveis entre si.
-
-A linha chegou ao PDP-11.
-
-Os minicomputadores ampliaram o acesso institucional à computação.
-
-Eles eram menores que os grandes mainframes.
-
-Também eram mais acessíveis para determinados grupos.
-
-A expansão dos minicomputadores teve impacto no desenvolvimento de sistemas.
-
-O PDP-7 teve importância na história do UNIX.
-
-13. Surgimento do UNIX
-
-Ken Thompson trabalhou nos Bell Labs.
-
-Thompson havia trabalhado no projeto MULTICS.
-
-Ele encontrou um minicomputador PDP-7 que não estava sendo utilizado.
-
-Thompson decidiu escrever uma versão simplificada do MULTICS.
-
-A versão inicial era destinada a um único usuário.
-
-Esse trabalho evoluiu posteriormente para o UNIX.
-
-O UNIX ganhou popularidade no meio acadêmico.
-
-Também se tornou importante em órgãos governamentais.
-
-Empresas passaram a utilizá-lo.
-
-A disponibilidade do código-fonte favoreceu a criação de versões.
-
-Diferentes organizações desenvolveram suas próprias versões.
-
-Muitas dessas versões eram incompatíveis entre si.
-
-A multiplicidade de versões gerou problemas de compatibilidade.
-
-O System V foi uma versão importante.
-
-O System V estava associado à AT&T.
-
-O BSD foi outra versão importante.
-
-BSD significa Berkeley Software Distribution.
-
-O BSD foi desenvolvido na Universidade da Califórnia, em Berkeley.
-
-Também surgiram variantes menores.
-
-A existência de várias versões dificultava a portabilidade.
-
-Era desejável escrever programas que funcionassem em diferentes sistemas UNIX.
-
-O IEEE desenvolveu um padrão para o UNIX.
-
-Esse padrão recebeu o nome POSIX.
+Para permitir maior compatibilidade entre diferentes versões do UNIX, o IEEE desenvolveu o padrão POSIX.
 
 POSIX significa Portable Operating System Interface.
 
-O padrão define uma interface de chamadas de sistema.
+O POSIX define uma interface de chamadas de sistema.
 
-Sistemas UNIX em conformidade deveriam oferecer essa interface.
+Sistemas UNIX compatíveis podem oferecer suporte a essa interface.
 
-Outros sistemas operacionais também passaram a oferecer suporte ao POSIX.
+Isso facilita o desenvolvimento de programas que podem funcionar em diferentes sistemas.
 
-O POSIX ajudou a reduzir problemas de compatibilidade.
+Em 1987, Andrew Tanenbaum desenvolveu um pequeno clone do UNIX chamado MINIX.
 
-A padronização favoreceu a portabilidade de programas.
+O objetivo inicial do MINIX era educacional.
 
-14. MINIX
+O sistema era funcionalmente semelhante ao UNIX.
 
-Em 1987, Tanenbaum lançou um pequeno clone do UNIX.
+Também oferecia suporte ao POSIX.
 
-O sistema recebeu o nome MINIX.
+Posteriormente, o MINIX evoluiu para o MINIX 3.
 
-O objetivo original do MINIX era educacional.
+O MINIX 3 possui uma estrutura modular.
 
-Funcionalmente, ele era semelhante ao UNIX.
+Seu foco está em confiabilidade e disponibilidade.
 
-O MINIX possuía suporte ao POSIX.
+Uma característica importante é a capacidade de detectar e substituir determinados módulos defeituosos durante a execução.
 
-O projeto posteriormente evoluiu para o MINIX 3.
+O sistema foi disponibilizado gratuitamente, incluindo seu código-fonte.
 
-O MINIX 3 possui arquitetura modular.
+O MINIX também teve influência na história do Linux.
 
-O foco do MINIX 3 é a confiabilidade.
+Linus Torvalds, estudante finlandês, desejava produzir uma versão gratuita do MINIX.
 
-O sistema também enfatiza a disponibilidade.
-
-O sistema pode detectar módulos defeituosos.
-
-Um módulo danificado pode ser substituído.
-
-Drivers de dispositivos são citados como exemplo.
-
-A substituição pode ocorrer sem reinicializar o sistema.
-
-Programas em execução podem continuar funcionando.
-
-O objetivo é reduzir os efeitos de falhas.
-
-O MINIX tornou-se uma referência importante na história do UNIX.
-
-A influência do MINIX alcançou o desenvolvimento do Linux.
-
-O sistema possui código-fonte disponível.
-
-O projeto também possui material dedicado à sua operação interna.
-
-15. Linux e sua relação com o MINIX
-
-Linus Torvalds era estudante na Finlândia.
-
-Ele desejava produzir uma versão gratuita do MINIX.
-
-Esse objetivo levou ao desenvolvimento do Linux.
+Esse trabalho levou ao desenvolvimento do Linux.
 
 O Linux foi diretamente inspirado pelo MINIX.
 
-O desenvolvimento inicial ocorreu sobre ideias relacionadas ao MINIX.
+Inicialmente, também compartilhava algumas características estruturais com o MINIX e o UNIX.
 
-O Linux inicialmente compartilhava alguns elementos com o MINIX.
+Posteriormente, o Linux recebeu contribuições de muitas pessoas.
 
-O sistema de arquivos do MINIX é citado como exemplo.
+Ele se tornou um dos sistemas operacionais mais importantes da história da computação.
 
-Posteriormente, o Linux foi ampliado por muitas pessoas.
-
-O projeto passou a ter características próprias.
-
-Mesmo assim, mantém relações estruturais com MINIX e UNIX.
-
-A história do Linux está ligada à história dos sistemas UNIX.
-
-A abertura do código favoreceu a colaboração.
-
-O Linux tornou-se uma alternativa importante em diferentes ambientes.
-
-O livro trata UNIX, MINIX, Linux e outras variantes em conjunto em vários contextos.
-
-Muitas ideias apresentadas para UNIX também ajudam a compreender Linux.
-
-16. Quarta geração — 1980 até o presente
-
-16.1 Circuitos integrados em larga escala
+# Quarta Geração
 
 A quarta geração começa aproximadamente em 1980.
 
-O desenvolvimento de circuitos integrados em larga escala foi decisivo.
+Essa geração está relacionada aos computadores pessoais.
 
-Esses circuitos são chamados de LSI.
+Um dos principais fatores tecnológicos foi o desenvolvimento dos circuitos integrados em larga escala.
 
-LSI significa Large Scale Integration.
+Esses circuitos passaram a conter milhares de transistores em um único chip.
 
-Os chips podiam conter milhares de transistores.
+O desenvolvimento dos microprocessadores tornou possível produzir computadores para indivíduos.
 
-A tecnologia tornou possível uma nova era da computação.
+Anteriormente, os minicomputadores permitiam que um departamento tivesse seu próprio computador.
 
-Os computadores pessoais surgiram nesse contexto.
+Com os microprocessadores, um indivíduo passou a poder possuir seu próprio computador.
 
-Inicialmente eles eram chamados de microcomputadores.
+Essa transformação foi fundamental para a popularização da informática.
 
-Em arquitetura, eles não eram totalmente diferentes dos minicomputadores.
+Um dos primeiros sistemas importantes desse período foi o CP/M.
 
-A grande diferença estava no preço.
+Em 1974, a Intel lançou o processador 8080.
 
-Um minicomputador permitia que um departamento tivesse seu próprio computador.
+Era uma CPU de 8 bits de uso geral.
 
-O microprocessador permitiu que uma pessoa tivesse seu próprio computador.
+A Intel desejava um sistema operacional para testar o processador.
 
-O computador pessoal aproximou a computação do indivíduo.
+Gary Kildall foi chamado para desenvolver esse sistema.
 
-O mercado passou a ter uma quantidade maior de máquinas.
+Kildall também trabalhou com um controlador para um disco flexível.
 
-Os sistemas operacionais precisaram atender novos usuários.
+Esse trabalho produziu um dos primeiros microcomputadores com disco.
 
-A facilidade de uso tornou-se cada vez mais importante.
-
-17. CP/M
-
-Em 1974, a Intel lançou o 8080.
-
-O 8080 era uma CPU de 8 bits de uso geral.
-
-A Intel queria um sistema operacional para testar o processador.
-
-Gary Kildall foi consultor da Intel.
-
-Kildall desenvolveu um sistema para o novo processador.
-
-Ele e um amigo construíram um controlador para disquete de 8 polegadas.
-
-O controlador foi usado com o 8080.
-
-Isso produziu um microcomputador com disco.
-
-Kildall criou o CP/M.
+Kildall desenvolveu então o CP/M.
 
 CP/M significa Control Program for Microcomputers.
 
-O CP/M era um sistema operacional baseado em disco.
+O sistema foi desenvolvido para microcomputadores.
 
-A Intel não acreditava inicialmente no grande futuro dos microcomputadores com disco.
+Kildall criou a empresa Digital Research.
 
-A Intel concordou em ceder os direitos do CP/M.
-
-Kildall criou a Digital Research.
-
-A empresa desenvolveu e comercializou o CP/M.
+A empresa passou a desenvolver e comercializar o CP/M.
 
 Em 1977, o CP/M foi adaptado para diferentes microcomputadores.
 
-Ele funcionava em máquinas com 8080.
+Ele funcionava em máquinas baseadas em processadores como o 8080 e o Z80.
 
-Também funcionava em máquinas com Zilog Z80.
+Muitos programas foram desenvolvidos para o CP/M.
 
-Outros microprocessadores também foram atendidos.
+Por aproximadamente cinco anos, ele dominou o mercado de microcomputadores.
 
-Muitos aplicativos foram desenvolvidos para o CP/M.
+No início da década de 1980, a IBM decidiu desenvolver o IBM PC.
 
-Durante alguns anos, o CP/M dominou a microcomputação.
+A empresa precisava de um sistema operacional para o novo computador.
 
-O domínio durou aproximadamente cinco anos.
+A Microsoft acabou fornecendo uma solução baseada no DOS.
 
-A compatibilidade com vários microcomputadores foi importante.
+O sistema foi adquirido de uma empresa chamada Seattle Computer Products.
 
-A existência de aplicativos também fortaleceu a plataforma.
+A Microsoft contratou Tim Paterson, responsável pelo desenvolvimento do sistema.
 
-18. IBM PC e MS-DOS
-
-No início da década de 1980, a IBM desenvolveu o IBM PC.
-
-A IBM precisava de software para o novo computador.
-
-A empresa procurou Bill Gates.
-
-Gates estava associado à Microsoft.
-
-A IBM inicialmente procurou um interpretador BASIC.
-
-A empresa também perguntou sobre um sistema operacional.
-
-Gates indicou que a IBM procurasse a Digital Research.
-
-A Digital Research era dominante no mercado de sistemas operacionais para microcomputadores.
-
-A negociação com a Digital Research não avançou como esperado.
-
-A IBM voltou a procurar Gates.
-
-Gates identificou um sistema adequado produzido pela Seattle Computer Products.
-
-O sistema era chamado DOS.
-
-DOS significa Disk Operating System.
-
-A Microsoft adquiriu o sistema.
-
-O preço citado no livro é de aproximadamente US$ 75.000.
-
-Gates ofereceu à IBM um pacote DOS/BASIC.
-
-A IBM aceitou a proposta.
-
-A IBM queria fazer modificações no sistema.
-
-A Microsoft contratou Tim Paterson.
-
-Paterson havia escrito o DOS original.
-
-O sistema revisado recebeu o nome MS-DOS.
+O sistema revisado recebeu o nome de MS-DOS.
 
 MS-DOS significa Microsoft Disk Operating System.
 
-O MS-DOS tornou-se dominante no mercado do IBM PC.
+O MS-DOS passou a dominar o mercado do IBM PC.
 
-A estratégia de licenciamento foi importante para esse crescimento.
+A estratégia de comercialização contribuiu para sua popularização.
 
-A Microsoft vendia o sistema às empresas de computadores.
+O sistema era vendido junto com computadores compatíveis.
 
-O modelo diferia da estratégia inicial adotada com o CP/M.
+Com o lançamento do IBM PC/AT, o MS-DOS já estava fortemente estabelecido.
 
-O MS-DOS foi utilizado em processadores posteriores.
+O CP/M, o MS-DOS e outros sistemas dos primeiros microcomputadores eram baseados principalmente em comandos digitados no teclado.
 
-O IBM PC/AT utilizou CPU Intel 80286.
+Essa situação começou a mudar com o desenvolvimento das interfaces gráficas.
 
-O MS-DOS já estava consolidado nessa época.
+Doug Engelbart realizou pesquisas importantes relacionadas à interface gráfica.
 
-O CP/M estava entrando em declínio.
+Ele desenvolveu conceitos que incluíam janelas, ícones, menus e mouse.
 
-Versões posteriores do MS-DOS incorporaram recursos mais avançados.
+Essas ideias foram posteriormente adotadas por pesquisadores da Xerox PARC.
 
-Alguns desses recursos foram inspirados no UNIX.
-
-A Microsoft também chegou a comercializar uma versão do UNIX chamada XENIX.
-
-19. Interfaces gráficas
-
-Os primeiros sistemas de microcomputadores usavam comandos digitados.
-
-CP/M era baseado em comandos.
-
-MS-DOS também era baseado em comandos.
-
-Essa situação mudou com pesquisas sobre interfaces gráficas.
-
-Doug Engelbart realizou pesquisas no Stanford Research Institute.
-
-Essas pesquisas ocorreram na década de 1960.
-
-Engelbart desenvolveu a ideia de uma interface gráfica.
-
-A GUI utilizava janelas.
-
-Também utilizava ícones.
-
-Menus faziam parte da ideia.
-
-O mouse também era importante.
-
-Pesquisadores da Xerox PARC adotaram essas ideias.
-
-As ideias foram incorporadas a máquinas produzidas pela Xerox.
+A Apple também foi fortemente influenciada por essas ideias.
 
 Steve Jobs visitou a Xerox PARC.
 
-Jobs percebeu o potencial da interface gráfica.
+Ele percebeu o potencial das interfaces gráficas.
 
-A Apple passou a desenvolver computadores com GUI.
+A Apple desenvolveu o Lisa.
 
-O projeto Lisa foi uma primeira tentativa.
+O Lisa, porém, era caro demais e não obteve sucesso comercial.
 
-O Lisa era caro.
-
-O Lisa fracassou comercialmente.
-
-O Macintosh foi uma segunda tentativa.
+A segunda tentativa foi o Apple Macintosh.
 
 O Macintosh teve grande sucesso.
 
-O Macintosh era mais barato que o Lisa.
+Uma das razões foi sua facilidade de utilização.
 
-Também era orientado à facilidade de uso.
+Ele foi direcionado inclusive para usuários que não possuíam conhecimento profundo de computadores.
 
-A proposta era atender usuários sem conhecimento técnico.
+A interface gráfica tornou a interação com o computador mais acessível.
 
-O computador passou a ser mais acessível a usuários comuns.
+O Macintosh também teve grande importância em áreas como design gráfico.
 
-O uso de interfaces gráficas mudou a interação com sistemas operacionais.
+Posteriormente, a Apple adotou um núcleo derivado do Mach.
 
-A GUI tornou-se uma característica importante dos computadores pessoais.
+O sistema operacional Mac OS X passou a possuir uma base relacionada ao UNIX.
 
-20. Mac OS X
+Embora a interface fosse bastante diferente, sua base tecnológica estava relacionada ao UNIX.
 
-A Apple continuou evoluindo seus sistemas operacionais.
+A Microsoft também foi influenciada pelo sucesso do Macintosh.
 
-Em 1999, a Apple adotou um núcleo derivado do micronúcleo Mach.
+A empresa desenvolveu o Windows.
 
-O Mach foi desenvolvido na Carnegie Mellon University.
+Inicialmente, o Windows funcionava sobre o MS-DOS.
 
-O Mach tinha sido criado como substituto para o núcleo do BSD UNIX.
+Durante aproximadamente dez anos, o Windows foi essencialmente um ambiente gráfico executado sobre o MS-DOS.
 
-O Mac OS X passou a ter uma base relacionada ao UNIX.
+Essa situação começou a mudar com o Windows 95.
 
-A interface do Mac OS X era bastante diferente de outras interfaces UNIX.
+O Windows 95 incorporou muitos aspectos de um sistema operacional.
 
-Essa combinação mostrou que um sistema podia ter uma base UNIX.
+O MS-DOS ainda era utilizado para inicialização e compatibilidade com programas antigos.
 
-A interface gráfica podia ser completamente diferente.
+O Windows 98 continuou essa evolução.
 
-A evolução do Macintosh também influenciou outros sistemas.
+Entretanto, esses sistemas ainda possuíam componentes relacionados à linguagem de montagem de 16 bits.
 
-21. Evolução do Windows
-
-A Microsoft foi influenciada pelo sucesso do Macintosh.
-
-A empresa desenvolveu um sistema baseado em GUI.
-
-Esse sistema recebeu o nome Windows.
-
-Inicialmente, o Windows era executado sobre o MS-DOS.
-
-Nas primeiras versões, funcionava mais como um ambiente gráfico.
-
-Entre 1985 e 1995, o Windows permaneceu associado ao MS-DOS.
-
-O Windows 95 marcou uma mudança importante.
-
-O Windows 95 incorporou muitas características de sistema operacional.
-
-O MS-DOS continuava sendo utilizado para inicialização.
-
-Também havia suporte para programas antigos do MS-DOS.
-
-Em 1998, foi lançado o Windows 98.
-
-Windows 95 e Windows 98 ainda utilizavam bastante código de montagem de 16 bits.
-
-A Microsoft também desenvolveu o Windows NT.
+Paralelamente, a Microsoft desenvolveu o Windows NT.
 
 NT significa New Technology.
 
-O Windows NT era internamente muito diferente do Windows 95.
+O Windows NT possuía uma arquitetura interna completamente reescrita.
 
-O NT era um sistema de 32 bits.
+Era um sistema de 32 bits.
 
-David Cutler foi o principal projetista do Windows NT.
+O projeto foi liderado por David Cutler.
 
-Cutler havia trabalhado no VMS.
+Cutler também havia participado do desenvolvimento do VMS.
 
-Algumas ideias do VMS apareceram no NT.
+O Windows NT teve inicialmente dificuldades para conquistar o mercado.
 
-A DEC chegou a processar a Microsoft por essa relação.
+Com o Windows NT 4.0, o sistema ganhou força principalmente em redes corporativas.
 
-A disputa foi resolvida fora dos tribunais.
+A versão 5 do Windows NT recebeu o nome Windows 2000.
 
-A Microsoft esperava que o NT substituísse o MS-DOS.
+A Microsoft também lançou o Windows ME.
 
-Isso não aconteceu imediatamente.
-
-O Windows NT 4.0 ganhou força especialmente em redes corporativas.
-
-A versão 5 do NT foi renomeada Windows 2000.
-
-O Windows 2000 pretendia suceder Windows 98 e NT 4.0.
-
-Essa estratégia não eliminou imediatamente a família anterior.
-
-A Microsoft lançou Windows ME.
-
-Windows ME foi outra versão da linha Windows 98.
-
-Em 2001, surgiu o Windows XP.
+Em 2001, foi lançado o Windows XP.
 
 O Windows XP teve uma vida longa.
 
-Ele substituiu progressivamente versões anteriores.
+Ele acabou substituindo diversas versões anteriores do Windows.
 
-A família Windows continuou evoluindo.
+A Microsoft continuou desenvolvendo diferentes linhas de sistemas.
 
-A Microsoft dividiu a família entre clientes e servidores.
+Havia sistemas voltados para clientes.
 
-A linha de clientes teve como base o XP e seus sucessores.
+Havia sistemas voltados para servidores.
 
-A linha de servidores incluiu Windows Server 2003.
+Também surgiu uma linha voltada para sistemas embarcados.
 
-Também incluiu Windows Server 2008.
+Posteriormente, a Microsoft lançou o Windows Vista.
 
-Uma linha para sistemas embarcados apareceu posteriormente.
+O Vista apresentou uma nova interface gráfica.
 
-As versões também receberam pacotes de serviço.
+Também trouxe recursos de segurança mais fortes.
 
-Em 2007, a Microsoft lançou o Windows Vista.
+Entretanto, o sistema recebeu muitas críticas.
 
-O Vista trouxe uma nova interface.
+Entre os problemas estavam suas exigências elevadas de hardware.
 
-Também trouxe mudanças de segurança.
+O Windows 7 surgiu posteriormente.
 
-O sistema exigia mais recursos.
+O Windows 7 era menos exigente em recursos.
 
-O Vista recebeu críticas.
-
-O Windows 7 chegou posteriormente.
-
-O Windows 7 consumia menos recursos que o Vista.
-
-O Windows 7 era relativamente pequeno e estável.
+Também foi considerado relativamente pequeno e estável.
 
 Em 2012, a Microsoft lançou o Windows 8.
 
-O Windows 8 apresentou uma interface diferente.
+O Windows 8 apresentou uma interface bastante diferente.
 
-O projeto foi voltado para telas sensíveis ao toque.
+O sistema foi projetado com atenção especial às telas sensíveis ao toque.
 
-A Microsoft pretendia usar a mesma abordagem em vários dispositivos.
+A Microsoft pretendia utilizá-lo em diversos dispositivos.
 
-A proposta incluía desktops.
+Entre esses dispositivos estavam desktops, laptops, notebooks, tablets, telefones e computadores para home theater.
 
-Também incluía laptops.
+Apesar dessas expectativas, a adoção do Windows 8 foi mais lenta do que a do Windows 7.
 
-Incluía notebooks.
+Durante essa evolução, o UNIX continuou importante.
 
-Incluía tablets.
+O UNIX permaneceu especialmente forte em servidores.
 
-Incluía telefones.
+Também esteve presente em computadores de mesa, notebooks, tablets e smartphones.
 
-Incluía PCs de home theater.
+O Linux tornou-se uma alternativa importante ao Windows em computadores baseados na arquitetura x86.
 
-A penetração de mercado do Windows 8 era lenta em comparação com o Windows 7 no período descrito.
+O Linux também ganhou importância entre estudantes e usuários corporativos.
 
-22. UNIX no mundo dos computadores pessoais
+Outro derivado importante do UNIX é o FreeBSD.
 
-UNIX e seus derivados são competidores importantes.
+O FreeBSD teve origem no projeto BSD desenvolvido em Berkeley.
 
-UNIX é especialmente forte em servidores.
+Os computadores Macintosh modernos também utilizam tecnologias derivadas dessa família.
 
-Também está presente em ambientes corporativos.
+Os derivados do UNIX também são utilizados em dispositivos móveis.
 
-O sistema e seus derivados aparecem em computadores de mesa.
+Entre os exemplos estão sistemas relacionados ao iOS e ao Android.
 
-Também aparecem em notebooks.
+A evolução dos sistemas operacionais não ficou limitada aos computadores pessoais.
 
-Estão presentes em tablets.
-
-Também aparecem em smartphones.
-
-Linux tornou-se uma alternativa ao Windows em computadores x86.
-
-Estudantes utilizam Linux.
-
-Usuários corporativos também utilizam Linux.
-
-O termo x86 é usado para uma família de arquiteturas.
-
-Essa família começou com o 8086.
-
-O 8086 surgiu na década de 1970.
-
-Processadores x86 são produzidos por diferentes empresas.
-
-Intel é um fabricante citado.
-
-AMD também é citada.
-
-Os processadores podem ter 32 bits.
-
-Também podem ter 64 bits.
-
-Podem possuir diferentes quantidades de núcleos.
-
-Podem ter diferentes estruturas de pipeline.
-
-Apesar das diferenças internas, possuem semelhanças para o programador.
-
-O código 8086 antigo ainda possui relevância de compatibilidade.
-
-Quando necessário, o livro diferencia x86-32 e x86-64.
-
-FreeBSD também é um derivado popular do UNIX.
-
-O FreeBSD tem origem no projeto BSD de Berkeley.
-
-Os computadores Macintosh modernos são apresentados como executando uma versão modificada do FreeBSD.
-
-UNIX também é utilizado em estações de trabalho com processadores RISC.
-
-Derivados do UNIX são utilizados em dispositivos móveis.
-
-iOS é citado.
-
-Android é citado.
-
-23. X Window System
-
-Muitos usuários UNIX preferem interfaces baseadas em comandos.
-
-Usuários experientes são citados nesse contexto.
-
-Ainda assim, sistemas UNIX oferecem suporte a interfaces gráficas.
-
-O X Window System é um sistema de janelas importante.
-
-Também é conhecido como X11.
-
-O sistema foi produzido no M.I.T.
-
-O X11 administra operações básicas de janelas.
-
-Ele permite criar janelas.
-
-Também permite remover janelas.
-
-Permite mover janelas.
-
-Permite redimensionar janelas.
-
-O mouse pode ser utilizado nessas operações.
-
-Uma GUI completa pode ser executada sobre o X11.
-
-Gnome é um exemplo.
-
-KDE é outro exemplo.
-
-Essas interfaces podem dar ao UNIX aparência semelhante à de outros sistemas.
-
-O X11 mostra que a interface gráfica pode ser separada da base do sistema operacional.
-
-Diferentes ambientes podem utilizar as mesmas abstrações subjacentes.
-
-A escolha da interface não determina necessariamente a natureza do núcleo.
-
-24. Sistemas operacionais de rede
-
-Em meados da década de 1980, redes de computadores pessoais cresceram.
+A partir da década de 1980, também ocorreu um crescimento das redes de computadores.
 
 Surgiram sistemas operacionais de rede.
 
 Também surgiram sistemas operacionais distribuídos.
 
-Em um sistema operacional de rede, os usuários sabem que existem várias máquinas.
+Em um sistema operacional de rede, os usuários sabem que existem vários computadores.
 
-O usuário pode conectar-se a computadores remotos.
+Eles podem se conectar a máquinas remotas.
 
-Também pode copiar arquivos entre máquinas.
+Também podem copiar arquivos entre computadores.
 
-Cada máquina executa seu próprio sistema operacional.
+Cada máquina possui seu próprio sistema operacional.
 
-Cada máquina pode ter seus próprios usuários.
+Cada máquina também pode possuir seus próprios usuários.
 
-Sistemas de rede não são fundamentalmente diferentes de sistemas de um único processador.
+Os sistemas operacionais de rede precisam de recursos adicionais.
 
-Eles precisam de um controlador de interface de rede.
+Entre esses recursos estão controladores de interface de rede.
 
-Também precisam de software de baixo nível para comunicação.
+Também são necessários softwares para acesso remoto.
 
-Precisam de mecanismos de login remoto.
+Entretanto, sua estrutura fundamental continua semelhante à de sistemas tradicionais.
 
-Também precisam de acesso remoto a arquivos.
+Os sistemas operacionais distribuídos apresentam uma diferença importante.
 
-Esses recursos ampliam o sistema tradicional.
+Para o usuário, eles podem parecer um sistema monoprocessador.
 
-A estrutura essencial do sistema operacional permanece semelhante.
+Na realidade, porém, são compostos por múltiplos processadores.
 
-O usuário reconhece a existência das diferentes máquinas.
+O usuário não precisa saber onde os programas estão sendo executados.
 
-A localização dos recursos pode ser explicitamente percebida.
+Também não precisa saber onde os arquivos estão localizados.
 
-A rede passa a integrar o ambiente de computação.
+Essas tarefas devem ser administradas automaticamente pelo sistema.
 
-O sistema operacional passa a administrar recursos conectados.
+Sistemas distribuídos apresentam desafios adicionais.
 
-25. Sistemas operacionais distribuídos
-
-Um sistema operacional distribuído possui uma abordagem diferente.
-
-Para o usuário, ele pode parecer um sistema tradicional.
-
-Internamente, pode ser composto por vários processadores.
-
-O usuário não precisa saber onde um programa está sendo executado.
-
-Também não precisa saber onde um arquivo está localizado.
-
-O sistema operacional procura cuidar dessas decisões automaticamente.
-
-O objetivo é tornar o conjunto de computadores semelhante a um sistema único.
-
-Sistemas distribuídos exigem mais que simples acréscimos a sistemas monoprocessadores.
-
-Sistemas distribuídos possuem diferenças críticas.
-
-Aplicativos podem ser executados em vários processadores ao mesmo tempo.
+Aplicações podem ser executadas em vários processadores ao mesmo tempo.
 
 Isso exige algoritmos de escalonamento mais complexos.
 
-O objetivo é aproveitar melhor o paralelismo.
+Os atrasos de comunicação também podem dificultar a tomada de decisões.
 
-A comunicação entre computadores apresenta atrasos.
+O sistema pode possuir informações atrasadas ou incompletas sobre o estado dos processadores.
 
-Esses atrasos afetam as decisões do sistema operacional.
+Essa característica diferencia sistemas distribuídos de sistemas monoprocessadores.
 
-As informações disponíveis podem estar desatualizadas.
+# Quinta Geração
 
-Também podem estar incompletas.
+A quinta geração começa aproximadamente na década de 1990.
 
-Um sistema monoprocessador possui uma visão mais direta do estado da máquina.
+Ela está relacionada aos computadores móveis.
 
-Em sistemas distribuídos, a informação pode chegar com atraso.
+O desejo de possuir dispositivos de comunicação móveis é muito antigo.
 
-Essa diferença altera os algoritmos de gerenciamento.
+Os autores mencionam que, desde as histórias de ficção científica, as pessoas imaginavam dispositivos de comunicação que pudessem ser carregados para qualquer lugar.
 
-A distribuição dos recursos aumenta a complexidade do sistema.
+O primeiro telefone móvel real apareceu em 1946.
 
-O sistema precisa coordenar diferentes processadores.
+Esse aparelho pesava aproximadamente 40 quilos.
 
-Também precisa coordenar diferentes locais de armazenamento.
+Por isso, sua mobilidade dependia da existência de um veículo para transportá-lo.
 
-O conceito de transparência é importante.
-
-O usuário pode não perceber a localização física do recurso.
-
-O sistema operacional precisa esconder parte da complexidade da distribuição.
-
-26. Quinta geração — 1990 até o presente
-
-26.1 Computadores móveis
-
-A quinta geração está associada aos computadores móveis.
-
-O período indicado começa aproximadamente em 1990.
-
-A ideia de comunicação móvel existe há muito tempo.
-
-Histórias de ficção já imaginavam dispositivos pessoais de comunicação.
-
-O primeiro telefone móvel real surgiu em 1946.
-
-Esse telefone pesava cerca de 40 quilos.
-
-Era necessário um carro para transportá-lo.
-
-O primeiro telefone realmente móvel surgiu na década de 1970.
+Na década de 1970 surgiu um telefone verdadeiramente móvel.
 
 Ele pesava aproximadamente um quilo.
 
-Ficou conhecido popularmente como “o tijolo”.
+Esse aparelho ficou conhecido popularmente como "o tijolo".
 
-A tecnologia móvel evoluiu rapidamente.
+A partir daí, os telefones móveis passaram por uma grande evolução.
 
-A presença dos telefones móveis tornou-se muito ampla.
+Os dispositivos ficaram menores.
 
-O telefone passou a executar funções além de chamadas.
+Também ficaram mais poderosos.
 
-Usuários podem receber e-mail.
+A função dos telefones deixou de ser apenas realizar chamadas.
 
-Também podem navegar na web.
+Os dispositivos passaram a executar diversas atividades.
 
-Podem trocar mensagens.
+Entre essas atividades estão o envio de e-mails.
+
+Também é possível navegar na web.
+
+Os usuários podem enviar mensagens.
 
 Podem jogar.
 
 Podem utilizar sistemas de navegação.
 
-O dispositivo móvel tornou-se um computador pessoal.
+Os dispositivos móveis passaram a funcionar como pequenos computadores.
 
-A parte de telefonia deixou de ser sua única função relevante.
+Esse processo mudou completamente o papel dos sistemas operacionais.
 
-Outros dispositivos vestíveis também foram considerados.
+Os sistemas móveis precisam administrar diversos recursos.
 
-Relógios podem atuar como dispositivos computacionais.
+Eles precisam controlar o hardware.
 
-O texto também menciona óculos e outros itens vestíveis.
+Também precisam administrar aplicativos.
 
-A computação móvel ampliou a variedade de sistemas operacionais.
+Precisam controlar memória.
 
-27. Smartphones
+Precisam controlar dispositivos de entrada e saída.
 
-A combinação entre telefonia e computação foi imaginada desde a década de 1970.
+Precisam lidar com redes.
 
-O primeiro smartphone de verdade é situado em meados da década de 1990.
+Precisam administrar energia.
 
-A Nokia lançou o N9000.
+A computação móvel também levou ao desenvolvimento de novos modelos de interação.
 
-O dispositivo combinava telefone e PDA.
+As telas sensíveis ao toque passaram a ser importantes.
 
-PDA significa Personal Digital Assistant.
+A interface precisava ser adequada para dispositivos pequenos.
 
-O conceito unia comunicação e computação pessoal.
+O sistema operacional precisava permitir que diferentes aplicativos funcionassem no mesmo dispositivo.
 
-Em 1997, a Ericsson cunhou o termo smartphone para seu GS88 Penelope.
+O desenvolvimento dos sistemas móveis representa uma continuação da evolução histórica dos sistemas operacionais.
 
-Os smartphones tornaram a competição entre sistemas operacionais intensa.
+A história apresentada por Tanenbaum e Bos mostra que os sistemas operacionais mudaram conforme as necessidades dos usuários e as possibilidades oferecidas pelo hardware.
 
-O mercado móvel tornou-se mais competitivo que o mercado de PCs em alguns aspectos.
+No início, praticamente todo o trabalho era feito diretamente pelo programador.
 
-O cenário móvel também é descrito como instável.
+Depois surgiram mecanismos para automatizar a execução.
 
-Sistemas que lideram o mercado podem perder posição.
+O processamento em lote reduziu o trabalho manual.
 
-Android tornou-se dominante no período descrito.
+A multiprogramação aumentou a utilização da CPU.
 
-iOS ocupava a segunda posição nesse contexto.
+O compartilhamento de tempo permitiu interação entre vários usuários.
 
-O domínio do mercado móvel não é considerado permanente.
+As interfaces gráficas facilitaram o uso dos computadores pessoais.
 
-A primeira década dos smartphones teve forte presença do Symbian.
+As redes permitiram que computadores se comunicassem.
 
-Symbian foi utilizado por várias marcas.
+Os sistemas distribuídos permitiram utilizar múltiplos processadores de maneira coordenada.
 
-Samsung utilizou Symbian.
+Os dispositivos móveis levaram os sistemas operacionais para além dos computadores tradicionais.
 
-Sony Ericsson utilizou Symbian.
+# Conclusão
 
-Motorola utilizou Symbian.
+A história dos sistemas operacionais apresentada por Tanenbaum e Bos demonstra uma evolução contínua.
 
-A Nokia utilizou especialmente o Symbian.
+Os primeiros computadores eram grandes, caros, difíceis de programar e pouco confiáveis.
 
-O BlackBerry OS também ganhou importância.
+Eles utilizavam válvulas e não possuíam sistemas operacionais.
 
-O BlackBerry OS era associado à RIM.
+A programação era realizada diretamente em código de máquina.
 
-Ele foi introduzido para smartphones em 2002.
+Com o surgimento dos transistores, os computadores se tornaram mais confiáveis.
 
-O iOS da Apple foi lançado com o primeiro iPhone em 2007.
+Isso possibilitou sua utilização por organizações e empresas.
 
-Esses sistemas começaram a conquistar espaço do Symbian.
+O processamento em lote surgiu como uma forma de reduzir o desperdício de tempo.
 
-Esperava-se que a RIM dominasse o mercado empresarial.
+Os programas passaram a ser reunidos em lotes.
 
-Esperava-se que o iOS dominasse dispositivos de consumo.
+O sistema podia executar uma tarefa depois da outra.
 
-A participação do Symbian caiu.
+Na terceira geração, os circuitos integrados permitiram o desenvolvimento de computadores mais avançados.
 
-Em 2011, a Nokia abandonou o Symbian.
+A multiprogramação tornou possível manter diversas tarefas na memória.
 
-A Nokia anunciou foco no Windows Phone.
+Enquanto uma tarefa aguardava uma operação de entrada ou saída, outra poderia utilizar a CPU.
 
-Android foi lançado pelo Google em 2008.
+O spooling também reduziu o trabalho manual.
 
-O Android era baseado no Linux.
+O compartilhamento de tempo tornou os computadores mais interativos.
 
-O sistema passou a superar rivais.
+O CTSS foi um exemplo importante dessa tecnologia.
 
-Para fabricantes, o Android possuía uma vantagem importante.
+O MULTICS levou a ideia de compartilhamento ainda mais longe.
 
-Ele era um sistema aberto.
+Apesar de suas dificuldades comerciais, sua influência foi significativa.
 
-Sua licença permitia adaptação ao hardware.
+O UNIX surgiu nesse contexto.
 
-Fabricantes podiam modificar o sistema.
+O UNIX tornou-se um dos sistemas operacionais mais influentes da história.
 
-O ecossistema possuía uma grande comunidade de desenvolvedores.
+Sua disponibilidade e portabilidade contribuíram para sua disseminação.
 
-Muitos aplicativos eram desenvolvidos em Java.
+Sistemas como BSD, MINIX e Linux possuem relação histórica com essa evolução.
 
-O mercado continuava competitivo.
+A quarta geração trouxe os computadores pessoais.
 
-O livro destaca que a liderança em smartphones pode mudar rapidamente.
+Os microprocessadores permitiram que indivíduos tivessem seus próprios computadores.
 
-28. Linha evolutiva resumida
-
-Antes dos sistemas operacionais, a programação era feita diretamente sobre o hardware.
-
-A primeira geração utilizou principalmente válvulas.
-
-A programação era manual.
-
-Cartões perfurados melhoraram a entrada de programas.
-
-A segunda geração introduziu transistores.
-
-Os computadores tornaram-se mais confiáveis.
-
-O processamento em lote reduziu o desperdício.
-
-Sistemas como FMS e IBSYS organizaram a execução.
-
-A terceira geração introduziu circuitos integrados.
-
-O System/360 buscou compatibilidade entre diferentes máquinas.
-
-O OS/360 mostrou os desafios da complexidade.
-
-A multiprogramação permitiu manter a CPU ocupada.
-
-O spooling automatizou parte do tratamento de entrada e saída.
-
-O timesharing permitiu interação com vários usuários.
-
-O CTSS foi um marco no compartilhamento de tempo.
-
-O MULTICS explorou a ideia de um computador utilitário.
-
-O MULTICS influenciou fortemente sistemas posteriores.
-
-Minicomputadores como o PDP-1 ampliaram o acesso.
-
-O UNIX nasceu no contexto dos minicomputadores.
-
-O UNIX gerou várias famílias e derivados.
-
-O POSIX buscou aumentar a portabilidade.
-
-O MINIX teve finalidade educacional.
-
-O Linux foi inspirado pelo MINIX.
-
-A quarta geração popularizou computadores pessoais.
-
-O CP/M foi importante para os primeiros microcomputadores.
+O CP/M teve importância nos primeiros microcomputadores.
 
 O MS-DOS tornou-se dominante no IBM PC.
 
-Interfaces gráficas mudaram a interação com o computador.
+As interfaces gráficas mudaram a forma de interação.
 
-Macintosh ajudou a popularizar a GUI.
+O Macintosh teve papel importante nessa transformação.
 
-Windows evoluiu de ambiente gráfico para sistema operacional completo.
+O Windows também evoluiu de um ambiente gráfico sobre o MS-DOS para sistemas operacionais independentes.
 
-UNIX e Linux ganharam importância em servidores e outros dispositivos.
+O Windows NT introduziu uma arquitetura diferente.
 
-Sistemas de rede conectaram computadores.
+O Windows 95 marcou outra etapa importante.
 
-Sistemas distribuídos procuraram esconder a distribuição dos recursos.
+O Windows XP tornou-se uma das versões de maior duração.
 
-A quinta geração levou os sistemas operacionais aos dispositivos móveis.
+O Linux também se tornou um importante sistema operacional.
 
-Smartphones transformaram o sistema operacional em uma plataforma de comunicação e aplicativos.
+Além dos computadores pessoais, os sistemas operacionais passaram a ser utilizados em redes.
 
-Android e iOS passaram a disputar o mercado móvel.
+Os sistemas operacionais de rede permitiram comunicação entre máquinas.
 
-A história revela uma evolução contínua de abstração, compartilhamento e mobilidade.
+Os sistemas distribuídos introduziram uma forma de utilizar múltiplos processadores de maneira integrada.
 
-29. Conceitos históricos fundamentais
+A quinta geração levou os sistemas operacionais para os dispositivos móveis.
 
-Hardware e software
+Os telefones passaram a funcionar como computadores.
 
-O sistema operacional não pode ser separado da evolução do hardware.
+Os usuários passaram a utilizar aplicativos.
 
-Mudanças no hardware criam novas possibilidades para o software.
+Também passaram a navegar na internet.
 
-Válvulas limitaram a confiabilidade das primeiras máquinas.
+Podem enviar mensagens.
 
-Transistores aumentaram a confiabilidade.
+Podem utilizar mapas.
 
-Circuitos integrados aumentaram a capacidade e reduziram custos.
+Podem executar jogos.
 
-Circuitos integrados em larga escala permitiram computadores pessoais.
+A evolução dos sistemas operacionais mostra que eles sempre estiveram relacionados às necessidades da computação.
 
-Microprocessadores levaram a computação ao indivíduo.
+Cada geração trouxe novos problemas.
 
-Dispositivos móveis criaram novas necessidades para sistemas operacionais.
+Também trouxe novas soluções.
 
-O sistema operacional precisa conhecer o hardware.
+As válvulas permitiram os primeiros computadores eletrônicos.
 
-Ao mesmo tempo, procura esconder sua complexidade dos programas.
+Os transistores aumentaram a confiabilidade.
 
-Essa relação aparece ao longo de todas as gerações.
+Os circuitos integrados aumentaram a capacidade de processamento.
 
-Eficiência
+Os microprocessadores permitiram a popularização dos computadores pessoais.
 
-O desperdício de tempo de máquina foi um problema desde cedo.
+A computação móvel levou os sistemas operacionais para dispositivos cada vez menores.
 
-Sistemas em lote reduziram o tempo perdido pelos operadores.
+A história também mostra que algumas ideias permanecem importantes por décadas.
 
-Multiprogramação reduziu o tempo ocioso da CPU.
+A multiprogramação continua sendo um conceito fundamental.
 
-Spooling reduziu operações manuais de entrada e saída.
+O compartilhamento de recursos continua sendo necessário.
 
-Timesharing melhorou o tempo de resposta para usuários.
+A proteção entre diferentes programas continua sendo importante.
 
-Cada técnica procurou utilizar melhor os recursos disponíveis.
+A comunicação entre máquinas tornou-se cada vez mais relevante.
 
-A eficiência permaneceu como objetivo central dos sistemas operacionais.
+A portabilidade continua sendo uma característica valorizada.
 
-Compartilhamento
+A busca por confiabilidade e segurança também permanece presente.
 
-A computação começou com máquinas usadas diretamente por poucos operadores.
+Portanto, estudar a história dos sistemas operacionais permite compreender por que os sistemas atuais possuem tantas funções.
 
-Depois, várias tarefas passaram a compartilhar a máquina.
+Os sistemas modernos são resultado de décadas de desenvolvimento.
 
-Multiprogramação compartilhou a CPU entre tarefas.
+Eles incorporam ideias que surgiram em diferentes momentos.
 
-Timesharing compartilhou a CPU entre usuários.
+Muitas tecnologias que parecem comuns atualmente tiveram origem em problemas encontrados nos primeiros computadores.
 
-MULTICS procurou compartilhar uma grande máquina entre centenas de usuários.
+A evolução histórica apresentada no capítulo demonstra que os sistemas operacionais não são apenas programas utilizados para iniciar um computador.
 
-Sistemas de rede compartilharam recursos entre computadores.
+Eles são resultado da necessidade de organizar recursos computacionais cada vez mais complexos.
 
-Sistemas distribuídos ampliaram esse compartilhamento.
+A história dos sistemas operacionais também demonstra a relação entre hardware e software.
 
-Computação em nuvem é apresentada como uma possível retomada da ideia de computador utilitário.
+Quando o hardware mudou, o software precisou mudar.
 
-O compartilhamento é uma linha contínua da história.
+Quando novos dispositivos surgiram, novas formas de gerenciamento foram necessárias.
 
-Compatibilidade
+Quando os usuários passaram a exigir maior interação, surgiram novas interfaces.
 
-A incompatibilidade entre máquinas era um problema importante.
+Quando os computadores passaram a trabalhar em rede, surgiram novos mecanismos de comunicação.
 
-A IBM tentou resolvê-lo com o System/360.
+Quando os dispositivos se tornaram móveis, os sistemas operacionais precisaram acompanhar essa transformação.
 
-A família 360 buscava compatibilidade entre diferentes modelos.
+Assim, a história dos sistemas operacionais é também uma história da evolução da própria computação.
 
-O UNIX posteriormente sofreu com diferentes versões incompatíveis.
+A primeira geração estabeleceu as bases da computação eletrônica.
 
-O POSIX procurou criar uma interface comum.
+A segunda geração trouxe maior confiabilidade e processamento em lote.
 
-O CP/M ganhou força por funcionar em muitos microcomputadores.
+A terceira geração introduziu técnicas como multiprogramação e compartilhamento de tempo.
 
-O MS-DOS tornou-se associado ao padrão IBM PC.
+A quarta geração popularizou os computadores pessoais.
 
-A compatibilidade influencia a permanência de sistemas operacionais.
+A quinta geração expandiu a computação para dispositivos móveis.
 
-Interação
+Essas etapas não devem ser consideradas completamente separadas.
 
-As primeiras máquinas exigiam contato direto com o hardware.
+Como os próprios autores destacam, houve sobreposição entre diferentes desenvolvimentos.
 
-Cartões perfurados simplificaram a entrada.
+Algumas tecnologias continuaram existindo enquanto novas tecnologias surgiam.
 
-Sistemas em lote automatizaram sequências de tarefas.
+Por isso, a história dos sistemas operacionais deve ser compreendida como um processo contínuo.
 
-Timesharing trouxe terminais interativos.
+O desenvolvimento de um sistema frequentemente influenciou o desenvolvimento de outro.
 
-Interfaces gráficas introduziram janelas, ícones, menus e mouse.
+O MULTICS influenciou o UNIX.
 
-Computadores pessoais tornaram a interação mais acessível.
+O UNIX influenciou vários outros sistemas.
 
-Smartphones levaram a interação para dispositivos pequenos e móveis.
+O MINIX foi inspirado no UNIX.
 
-A história mostra uma tendência de afastamento do usuário dos detalhes do hardware.
+O Linux foi diretamente inspirado no MINIX.
 
-30. Conclusão
+Os sistemas móveis também receberam influência de tecnologias anteriores.
 
-A história dos sistemas operacionais acompanha a história dos computadores.
+Essa continuidade demonstra a importância histórica dos sistemas operacionais.
 
-Cada geração respondeu aos limites da tecnologia anterior.
+O estudo dessa evolução ajuda a entender conceitos presentes nos sistemas atuais.
 
-A primeira geração foi marcada pelo contato direto com máquinas de válvulas.
+Também ajuda a compreender por que determinadas características são consideradas fundamentais.
 
-A segunda geração trouxe transistores e maior confiabilidade.
+A evolução dos sistemas operacionais foi motivada tanto pelo desenvolvimento do hardware quanto pelas necessidades dos usuários.
 
-Os sistemas em lote organizaram a execução de trabalhos.
+Esse processo continua até hoje.
 
-A terceira geração trouxe circuitos integrados.
+Novas arquiteturas, dispositivos e formas de utilização continuam exigindo mudanças.
 
-A multiprogramação aumentou o aproveitamento da CPU.
+Por isso, a história apresentada por Tanenbaum e Bos não deve ser vista apenas como uma sequência de datas.
 
-O timesharing trouxe interação para vários usuários.
+Ela representa uma evolução de ideias.
 
-O MULTICS demonstrou a força de ideias ambiciosas de compartilhamento.
+Representa também uma evolução na maneira como as pessoas utilizam computadores.
 
-O UNIX tornou-se uma influência duradoura.
+O computador deixou de ser uma máquina utilizada diretamente por especialistas.
 
-O POSIX ajudou a enfrentar a fragmentação das versões UNIX.
+Passou a ser uma ferramenta disponível para empresas.
 
-O MINIX teve importância educacional e histórica.
+Depois passou a ser utilizado por indivíduos.
 
-O Linux surgiu inspirado pelo MINIX e tornou-se um sistema amplamente utilizado.
+Posteriormente passou a estar presente em dispositivos móveis.
 
-A quarta geração levou a computação para computadores pessoais.
+Atualmente, sistemas operacionais estão presentes em diversos tipos de equipamentos.
 
-CP/M teve papel importante nos primeiros microcomputadores.
+Essa evolução foi possível graças a décadas de desenvolvimento.
 
-MS-DOS tornou-se central na história do IBM PC.
+A história dos sistemas operacionais permite observar esse processo desde as primeiras máquinas eletrônicas até a computação móvel.
 
-Interfaces gráficas transformaram a relação entre usuário e computador.
-
-Windows e Macintosh ajudaram a popularizar ambientes gráficos.
-
-UNIX e seus derivados mantiveram importância em servidores e outros sistemas.
-
-Redes introduziram novos modos de utilização dos computadores.
-
-Sistemas distribuídos passaram a esconder parte da localização dos recursos.
-
-A quinta geração levou sistemas operacionais para dispositivos móveis.
-
-Smartphones combinaram telefonia, computação e acesso à internet.
-
-Android e iOS passaram a disputar intensamente esse novo espaço.
-
-A evolução não foi linear.
-
-Houve projetos que fracassaram comercialmente, mas influenciaram gerações posteriores.
-
-MULTICS é um exemplo de projeto influente apesar de seu sucesso comercial limitado.
-
-A evolução dos sistemas operacionais envolve hardware, software e necessidades dos usuários.
-
-A busca por eficiência aparece em todas as gerações.
-
-A busca por compartilhamento também aparece em diferentes formas.
-
-A compatibilidade foi um problema recorrente.
-
-A interação tornou-se progressivamente mais simples.
-
-A mobilidade ampliou o papel do sistema operacional.
-
-O sistema operacional passou de uma ausência total para uma camada essencial da computação.
-
-Sua história revela uma busca contínua por maior automação.
-
-Também revela uma busca por melhor aproveitamento dos recursos.
-
-A evolução mostra uma tentativa constante de esconder a complexidade do hardware.
-
-A história das gerações ajuda a compreender por que os sistemas atuais possuem tantas funções.
-
-Os sistemas atuais são resultado de várias décadas de ideias acumuladas.
-
-Conceitos antigos continuam influenciando sistemas modernos.
-
-O desenvolvimento de novas tecnologias não elimina necessariamente ideias anteriores.
-
-Muitas técnicas são adaptadas a novos contextos.
-
-A computação móvel mantém problemas de gerenciamento de recursos.
-
-Sistemas distribuídos mantêm desafios de coordenação.
-
-Sistemas pessoais mantêm preocupações de compatibilidade.
-
-Sistemas corporativos continuam utilizando ideias herdadas de mainframes e UNIX.
-
-A história dos sistemas operacionais, portanto, é também uma história de adaptação.
-
-Cada nova geração ampliou o alcance dos computadores.
-
-O computador deixou de ser uma máquina exclusiva de especialistas.
-
-Passou a ser uma ferramenta de organizações.
-
-Depois tornou-se uma ferramenta pessoal.
-
-Em seguida tornou-se um dispositivo portátil.
-
-A trajetória descrita nas páginas 5 a 13 mostra essa transformação.
-
-O resultado é um ecossistema de sistemas operacionais muito diversificado.
-
-A compreensão dessa evolução ajuda a contextualizar os sistemas atuais.
-
-As diferentes gerações explicam muitas das características presentes nos sistemas modernos.
-
-O estudo histórico permite relacionar problemas antigos às soluções atuais.
-
-Por isso, a história é uma parte importante do estudo de sistemas operacionais.
-
-31. Referência bibliográfica
-
-TANENBAUM, Andrew S.; BOS, Herbert. Sistemas operacionais modernos. 4. ed. São Paulo: Pearson Education do Brasil, 2016. Seção 1.2, “História dos sistemas operacionais”, p. 5–13.
+Por isso, compreender essa história é importante para compreender também os sistemas operacionais atuais.
